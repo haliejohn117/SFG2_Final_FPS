@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	639453935	Blaster_Fire			\Default Work Unit\Weapons\Blaster\Blaster_Fire	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	104706583	Blaster_Shot_4	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\70\{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_4		48096
+	443700259	Blaster_Shot_1	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\09\{09F8FB24-17E2-3128-B8AD-0A347A7B0314}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_1		48096
+	625908631	Blaster_Shot_3	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\D3\{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_3		48096
+	944077970	Blaster_Shot_2	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\24\{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_2		48096
+

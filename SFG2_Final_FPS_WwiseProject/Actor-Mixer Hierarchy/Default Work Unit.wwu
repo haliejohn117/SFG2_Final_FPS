@@ -1,6 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Blaster_Shot_Container" ID="{E379472B-C6B5-4153-A3BC-165D0016045A}" ShortID="40887014">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A39ED059-50A3-48B8-A776-80E830F1C343}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="325"/>
+											<Property Name="Min" Type="Real64" Value="-325"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Blaster_Shot_1" ID="{E4ACF7D1-752D-44DD-9DCA-093822FBE569}" ShortID="49840240">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shot1 Master-01_L" ID="{F0BE5F1D-6D09-4783-8E31-C6607D3E693E}">
+									<Language>SFX</Language>
+									<AudioFile>shot1 Master-01.L.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="443700259"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shot1 Master-01_L" ID="{F0BE5F1D-6D09-4783-8E31-C6607D3E693E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Blaster_Shot_2" ID="{4B693991-CD6F-40B9-911A-FE68BE51A635}" ShortID="695029194">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shot2 Master-01_L" ID="{193479B0-E3C8-4A66-9876-CB1FA9BE2051}">
+									<Language>SFX</Language>
+									<AudioFile>shot2 Master-01.L.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="944077970"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shot2 Master-01_L" ID="{193479B0-E3C8-4A66-9876-CB1FA9BE2051}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Blaster_Shot_3" ID="{5EAB68AE-029C-4612-AA19-D41E387BCD09}" ShortID="20982508">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shot3 Master-01_L" ID="{0194A6BF-2083-497A-BC6F-BB7969D301F1}">
+									<Language>SFX</Language>
+									<AudioFile>shot3 Master-01.L.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="625908631"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shot3 Master-01_L" ID="{0194A6BF-2083-497A-BC6F-BB7969D301F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Blaster_Shot_4" ID="{2304DBB8-DEC7-49B0-9CF7-A555D1D20FA7}" ShortID="247139370">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="shot4 Master-01_L" ID="{466498A2-71EA-402B-890D-4BC843214850}">
+									<Language>SFX</Language>
+									<AudioFile>shot4 Master-01.L.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="104706583"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="shot4 Master-01_L" ID="{466498A2-71EA-402B-890D-4BC843214850}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

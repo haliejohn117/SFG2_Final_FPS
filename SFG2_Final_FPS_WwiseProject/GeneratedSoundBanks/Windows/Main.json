@@ -1,0 +1,80 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
+    "Language": "SFX",
+    "Hash": "{4AFECE89-0437-F73B-B074-0C9597ECFCBC}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "104706583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shot4 Master-01.L.wav",
+      "CachePath": "70/{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem"
+     },
+     {
+      "Id": "443700259",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shot1 Master-01.L.wav",
+      "CachePath": "09/{09F8FB24-17E2-3128-B8AD-0A347A7B0314}.wem"
+     },
+     {
+      "Id": "625908631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shot3 Master-01.L.wav",
+      "CachePath": "D3/{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem"
+     },
+     {
+      "Id": "944077970",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "shot2 Master-01.L.wav",
+      "CachePath": "24/{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "639453935",
+      "Name": "Blaster_Fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Fire",
+      "GUID": "{D069709A-2AA0-4E2D-A41E-5253325F16C3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4144203",
+      "DurationMax": "0.60325223",
+      "MediaRefs": [
+       {
+        "Id": "104706583"
+       },
+       {
+        "Id": "443700259"
+       },
+       {
+        "Id": "625908631"
+       },
+       {
+        "Id": "944077970"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1D781D5C-4A2A-2B98-32F9-350A4E653632}"
+ }
+}

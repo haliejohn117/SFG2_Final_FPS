@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{141BECC8-F08F-489F-AEB5-8BF1564C4F6F}" SchemaVersion="123">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{141BECC8-F08F-489F-AEB5-8BF1564C4F6F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{141BECC8-F08F-489F-AEB5-8BF1564C4F6F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Weapons" ID="{15AE7575-4AAA-479E-BE07-ABA86A3E35E2}" ShortID="328835421">
+					<ChildrenList>
+						<Folder Name="Blaster" ID="{369C1C34-6C43-412E-B3B9-53E35CC5D9A8}" ShortID="755154162">
+							<ChildrenList>
+								<Event Name="Blaster_Fire" ID="{D069709A-2AA0-4E2D-A41E-5253325F16C3}">
+									<ChildrenList>
+										<Action Name="" ID="{CF2BCA05-3AE0-4385-8796-C61C637576A5}" ShortID="784922720">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blaster_Shot_Container" ID="{E379472B-C6B5-4153-A3BC-165D0016045A}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
