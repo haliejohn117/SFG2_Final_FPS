@@ -15,5 +15,5 @@ MonoBehaviour:
   objectName: Blaster_Fire
   id: 639453935
   guid: D069709A-2AA0-4E2D-A41E-5253325F16C3
-  IsInUserDefinedSoundBank: 0
+  IsInUserDefinedSoundBank: 1
   IsAutoBankLoaded: 0

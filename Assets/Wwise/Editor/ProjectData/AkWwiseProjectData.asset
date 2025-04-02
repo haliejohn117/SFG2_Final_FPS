@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 78962d00c1df6e4f903d112e5e1f7683
     GuidInternal: 
-    m_lastTime: -8584579810239314407
-    List: []
+    m_lastTime: -8584579770233937228
+    List:
+    - name: Main
+      guid: 64c32893f30a2245b4a736b8ccc0b4f8
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 78962d00c1df6e4f903d112e5e1f7683
+      - ElementName: Main
+        ObjectType: 7
+        guid: 64c32893f30a2245b4a736b8ccc0b4f8
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -123,8 +137,8 @@ MonoBehaviour:
         guid: 9a7069d0a02a2d4ea41e5253325f16c3
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Fire
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.60325223
+      minDuration: 0.4144203
     - name: Weapons
       guid: 7575ae15aa4a9e47be07aba86a3e35e2
       id: 1467963052
@@ -199,7 +213,7 @@ MonoBehaviour:
     m_lastTime: -8584579810239291043
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000150000001600000017000000
+  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000130000001400000015000000160000001700000019000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
