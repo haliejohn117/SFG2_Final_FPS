@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3659995153115176982}
   - component: {fileID: 8924682559891268397}
-  - component: {fileID: 2010089988689412679}
-  - component: {fileID: -7574919087135636308}
+  - component: {fileID: 396843877077523399}
+  - component: {fileID: 1872592537480356371}
   m_Layer: 0
   m_Name: Projectile_Blaster
   m_TagString: Untagged
@@ -66,7 +66,7 @@ MonoBehaviour:
   Damage: 15
   AreaOfDamage: {fileID: 0}
   RadiusColor: {r: 0, g: 1, b: 0.9007921, a: 1}
---- !u!114 &2010089988689412679
+--- !u!114 &396843877077523399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,7 +90,7 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &-7574919087135636308
+--- !u!114 &1872592537480356371
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
