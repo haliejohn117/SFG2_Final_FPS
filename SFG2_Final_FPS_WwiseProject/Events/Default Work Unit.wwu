@@ -18,6 +18,65 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Folder Name="Blaster_Reload" ID="{82A54454-37B6-4897-A8D9-9276194C95D5}" ShortID="277434286">
+									<ChildrenList>
+										<Event Name="Blaster_Cyllinder_1" ID="{9AC63595-FD93-48B5-9D14-AE8BBABDE2E3}">
+											<ChildrenList>
+												<Action Name="" ID="{5AB3B41D-5143-4B12-B191-DFF5F620A974}" ShortID="304292342">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cylinder 1" ID="{B94F60B0-9663-41DE-B67D-7D0605393887}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Blaster_Cyllinder_2" ID="{A4D3062B-41B0-49AD-A12A-ADC2F2CCC328}">
+											<ChildrenList>
+												<Action Name="" ID="{54F4125D-3812-4E89-8705-7DC3612CB60C}" ShortID="815885450">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cylinder 2" ID="{2A9387F2-FBF7-4572-A9BA-B2CDFD606A82}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Blaster_Cyllinder_3" ID="{6797889A-217E-4DA2-A1E4-2FCBD7D6B8FF}">
+											<ChildrenList>
+												<Action Name="" ID="{EBA0023F-8142-4E7E-B4E5-8DB47BC5C237}" ShortID="522990818">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cylinder 3" ID="{08B64F2F-947C-4D52-8184-58B4880A0C0E}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Blaster_Cyllinder_4" ID="{C60655F7-0A3A-4AF8-890B-8E8D8D2BE285}">
+											<ChildrenList>
+												<Action Name="" ID="{E3099B77-6F8E-4C77-B09E-F9529F4180CF}" ShortID="390576285">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Cylinder 4" ID="{27FDDBC2-F4BE-4C23-B806-812C36931B6E}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Event Name="Blaster_Shot_Impact_VFX" ID="{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}">
+									<ChildrenList>
+										<Action Name="" ID="{3CF04FA4-F6E1-4C87-9B66-93907E5B5F08}" ShortID="23153401">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blaster_Shot_Impact_VFX" ID="{40534904-B805-4EDD-9F2F-25CD8FB9B25F}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

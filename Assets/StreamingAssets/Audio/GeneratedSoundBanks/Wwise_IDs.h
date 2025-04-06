@@ -13,7 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BLASTER_CYLLINDER_1 = 236527715U;
+        static const AkUniqueID BLASTER_CYLLINDER_2 = 236527712U;
+        static const AkUniqueID BLASTER_CYLLINDER_3 = 236527713U;
+        static const AkUniqueID BLASTER_CYLLINDER_4 = 236527718U;
         static const AkUniqueID BLASTER_FIRE = 639453935U;
+        static const AkUniqueID BLASTER_SHOT_IMPACT_VFX = 1073526629U;
     } // namespace EVENTS
 
     namespace BANKS

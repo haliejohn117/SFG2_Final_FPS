@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c8ec1b148ff09f48aeb58bf1564c4f6f
     GuidInternal: 
-    m_lastTime: -8584579791699319122
+    m_lastTime: -8584576277896513812
     List:
     - name: Blaster
       guid: 341c9c36436c2e41b3b953e35cc5d9a8
@@ -116,6 +116,110 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Blaster_Cyllinder_1
+      guid: 9535c69a93fdb5489d14ae8bbabde2e3
+      id: 236527715
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Reload
+        ObjectType: 4
+        guid: 5444a582b6379748a8d99276194c95d5
+      - ElementName: Blaster_Cyllinder_1
+        ObjectType: 3
+        guid: 9535c69a93fdb5489d14ae8bbabde2e3
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_1
+      maxAttenuation: 0
+      maxDuration: 0.624
+      minDuration: 0.624
+    - name: Blaster_Cyllinder_2
+      guid: 2b06d3a4b041ad49a12aadc2f2ccc328
+      id: 236527712
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Reload
+        ObjectType: 4
+        guid: 5444a582b6379748a8d99276194c95d5
+      - ElementName: Blaster_Cyllinder_2
+        ObjectType: 3
+        guid: 2b06d3a4b041ad49a12aadc2f2ccc328
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_2
+      maxAttenuation: 0
+      maxDuration: 0.624
+      minDuration: 0.624
+    - name: Blaster_Cyllinder_3
+      guid: 9a8897677e21a24da1e42fcbd7d6b8ff
+      id: 236527713
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Reload
+        ObjectType: 4
+        guid: 5444a582b6379748a8d99276194c95d5
+      - ElementName: Blaster_Cyllinder_3
+        ObjectType: 3
+        guid: 9a8897677e21a24da1e42fcbd7d6b8ff
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_3
+      maxAttenuation: 0
+      maxDuration: 0.624
+      minDuration: 0.624
+    - name: Blaster_Cyllinder_4
+      guid: f75506c63a0af84a890b8e8d8d2be285
+      id: 236527718
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Reload
+        ObjectType: 4
+        guid: 5444a582b6379748a8d99276194c95d5
+      - ElementName: Blaster_Cyllinder_4
+        ObjectType: 3
+        guid: f75506c63a0af84a890b8e8d8d2be285
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_4
+      maxAttenuation: 0
+      maxDuration: 0.624
+      minDuration: 0.624
     - name: Blaster_Fire
       guid: 9a7069d0a02a2d4ea41e5253325f16c3
       id: 639453935
@@ -136,9 +240,55 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9a7069d0a02a2d4ea41e5253325f16c3
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Fire
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 0.60325223
       minDuration: 0.4144203
+    - name: Blaster_Reload
+      guid: 5444a582b6379748a8d99276194c95d5
+      id: 1245297744
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Reload
+        ObjectType: 4
+        guid: 5444a582b6379748a8d99276194c95d5
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Blaster_Shot_Impact_VFX
+      guid: f4f57527c2561f45b8a2c40eb4baddb9
+      id: 1073526629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Shot_Impact_VFX
+        ObjectType: 3
+        guid: f4f57527c2561f45b8a2c40eb4baddb9
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX
+      maxAttenuation: 50
+      maxDuration: 0.36213475
+      minDuration: 0.28330576
     - name: Weapons
       guid: 7575ae15aa4a9e47be07aba86a3e35e2
       id: 1467963052
@@ -213,7 +363,7 @@ MonoBehaviour:
     m_lastTime: -8584579810239291043
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000700000008000000130000001400000015000000160000001700000019000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000800000013000000140000001500000016000000170000001800000019000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

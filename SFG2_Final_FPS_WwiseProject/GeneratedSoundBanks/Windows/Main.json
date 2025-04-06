@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
     "Language": "SFX",
-    "Hash": "{4AFECE89-0437-F73B-B074-0C9597ECFCBC}",
+    "Hash": "{07073A71-4C6F-8025-EA25-202194FC3E97}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "19699085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blaster Impact 2.wav",
+      "CachePath": "EB/{EBC81E28-F50F-9D1E-9A09-4040EEA1C848}.wem"
+     },
+     {
+      "Id": "33855622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blaster Impact 6.wav",
+      "CachePath": "6F/{6F12D6F1-7984-907B-7DAF-75DC58F9BA02}.wem"
+     },
      {
       "Id": "104706583",
       "Language": "SFX",
@@ -22,6 +38,54 @@
       "Location": "Memory",
       "ShortName": "shot4 Master-01.L.wav",
       "CachePath": "70/{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem"
+     },
+     {
+      "Id": "118425554",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cylinder 4.wav",
+      "CachePath": "AE/{AE088CB4-8747-73AC-07B9-AACCF36618EE}.wem"
+     },
+     {
+      "Id": "165605077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cylinder 2.wav",
+      "CachePath": "B5/{B5CC1DA9-D0A6-086D-F308-F5A8765C359A}.wem"
+     },
+     {
+      "Id": "232753411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blaster Impact 5.wav",
+      "CachePath": "19/{190A3BD8-9878-1FD6-4EE2-EDEF55E072B9}.wem"
+     },
+     {
+      "Id": "253122031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blaster Impact 7.wav",
+      "CachePath": "12/{12DA78CB-B0D4-1F65-38C5-5E7BF36CA57A}.wem"
+     },
+     {
+      "Id": "280750469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blaster Impact 1.wav",
+      "CachePath": "54/{540BA80D-EA9D-FDCD-94F7-9FE8C001898D}.wem"
+     },
+     {
+      "Id": "415476632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blaster Impact 4.wav",
+      "CachePath": "B4/{B462783E-81FA-9C43-F0A3-11C4F4D1B67F}.wem"
      },
      {
       "Id": "443700259",
@@ -32,12 +96,44 @@
       "CachePath": "09/{09F8FB24-17E2-3128-B8AD-0A347A7B0314}.wem"
      },
      {
+      "Id": "511855533",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blster Impact 3.wav",
+      "CachePath": "BD/{BD40014A-7972-8667-8088-39CB57C91AAD}.wem"
+     },
+     {
       "Id": "625908631",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "shot3 Master-01.L.wav",
       "CachePath": "D3/{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem"
+     },
+     {
+      "Id": "679497602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cylinder 1.wav",
+      "CachePath": "C8/{C860EE68-84B7-5263-481E-DA22A76C7854}.wem"
+     },
+     {
+      "Id": "679832758",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Blaster Impact 8.wav",
+      "CachePath": "1B/{1B1351C1-917F-13A0-1301-B9A2BE3078F5}.wem"
+     },
+     {
+      "Id": "934764262",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cylinder 3.wav",
+      "CachePath": "40/{40401D29-85AC-0C3B-D35F-A06A8011E247}.wem"
      },
      {
       "Id": "944077970",
@@ -48,12 +144,81 @@
       "CachePath": "24/{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3657550167",
+       "Name": "New_Parametric_EQ",
+       "ObjectPath": "\\Effects\\Default Work Unit\\New_Parametric_EQ",
+       "GUID": "{C1E16E4E-9CCF-4D18-B796-8678CF6F0FF9}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
     "Events": [
+     {
+      "Id": "236527715",
+      "Name": "Blaster_Cyllinder_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_1",
+      "GUID": "{9AC63595-FD93-48B5-9D14-AE8BBABDE2E3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.624",
+      "DurationMax": "0.624",
+      "MediaRefs": [
+       {
+        "Id": "679497602"
+       }
+      ]
+     },
+     {
+      "Id": "236527712",
+      "Name": "Blaster_Cyllinder_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_2",
+      "GUID": "{A4D3062B-41B0-49AD-A12A-ADC2F2CCC328}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.624",
+      "DurationMax": "0.624",
+      "MediaRefs": [
+       {
+        "Id": "165605077"
+       }
+      ]
+     },
+     {
+      "Id": "236527713",
+      "Name": "Blaster_Cyllinder_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_3",
+      "GUID": "{6797889A-217E-4DA2-A1E4-2FCBD7D6B8FF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.624",
+      "DurationMax": "0.624",
+      "MediaRefs": [
+       {
+        "Id": "934764262"
+       }
+      ]
+     },
+     {
+      "Id": "236527718",
+      "Name": "Blaster_Cyllinder_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_4",
+      "GUID": "{C60655F7-0A3A-4AF8-890B-8E8D8D2BE285}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.624",
+      "DurationMax": "0.624",
+      "MediaRefs": [
+       {
+        "Id": "118425554"
+       }
+      ]
+     },
      {
       "Id": "639453935",
       "Name": "Blaster_Fire",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Fire",
       "GUID": "{D069709A-2AA0-4E2D-A41E-5253325F16C3}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.4144203",
       "DurationMax": "0.60325223",
@@ -71,10 +236,53 @@
         "Id": "944077970"
        }
       ]
+     },
+     {
+      "Id": "1073526629",
+      "Name": "Blaster_Shot_Impact_VFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Shot_Impact_VFX",
+      "GUID": "{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28330576",
+      "DurationMax": "0.36213475",
+      "MediaRefs": [
+       {
+        "Id": "19699085"
+       },
+       {
+        "Id": "33855622"
+       },
+       {
+        "Id": "232753411"
+       },
+       {
+        "Id": "253122031"
+       },
+       {
+        "Id": "280750469"
+       },
+       {
+        "Id": "415476632"
+       },
+       {
+        "Id": "511855533"
+       },
+       {
+        "Id": "679832758"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3657550167"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{1D781D5C-4A2A-2B98-32F9-350A4E653632}"
+  "FileHash": "{538C3668-676C-E668-8E12-227A6A8567B2}"
  }
 }

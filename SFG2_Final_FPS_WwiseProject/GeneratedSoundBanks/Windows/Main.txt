@@ -1,9 +1,29 @@
 Event	ID	Name			Wwise Object Path	Notes
+	236527712	Blaster_Cyllinder_2			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_2	
+	236527713	Blaster_Cyllinder_3			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_3	
+	236527715	Blaster_Cyllinder_1			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_1	
+	236527718	Blaster_Cyllinder_4			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_4	
 	639453935	Blaster_Fire			\Default Work Unit\Weapons\Blaster\Blaster_Fire	
+	1073526629	Blaster_Shot_Impact_VFX			\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3657550167	New_Parametric_EQ	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	104706583	Blaster_Shot_4	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\70\{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_4		48096
-	443700259	Blaster_Shot_1	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\09\{09F8FB24-17E2-3128-B8AD-0A347A7B0314}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_1		48096
-	625908631	Blaster_Shot_3	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\D3\{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_3		48096
-	944077970	Blaster_Shot_2	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\24\{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Blaster_Shot_Container\Blaster_Shot_2		48096
+	19699085	Blaster Impact 2	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\EB\{EBC81E28-F50F-9D1E-9A09-4040EEA1C848}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 2		30624
+	33855622	Blaster Impact 6	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\6F\{6F12D6F1-7984-907B-7DAF-75DC58F9BA02}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 6		30624
+	104706583	Blaster_Shot_4	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\70\{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_4		48096
+	118425554	Cylinder 4	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\AE\{AE088CB4-8747-73AC-07B9-AACCF36618EE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 4		60000
+	165605077	Cylinder 2	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B5\{B5CC1DA9-D0A6-086D-F308-F5A8765C359A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 2		60000
+	232753411	Blaster Impact 5	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\19\{190A3BD8-9878-1FD6-4EE2-EDEF55E072B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 5		30624
+	253122031	Blaster Impact 7	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\12\{12DA78CB-B0D4-1F65-38C5-5E7BF36CA57A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 7		30624
+	280750469	Blaster Impact 1	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\54\{540BA80D-EA9D-FDCD-94F7-9FE8C001898D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 1		30624
+	415476632	Blaster Impact 4	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B4\{B462783E-81FA-9C43-F0A3-11C4F4D1B67F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 4		30624
+	443700259	Blaster_Shot_1	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\09\{09F8FB24-17E2-3128-B8AD-0A347A7B0314}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_1		48096
+	511855533	Blster Impact 3	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\BD\{BD40014A-7972-8667-8088-39CB57C91AAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blster Impact 3		30624
+	625908631	Blaster_Shot_3	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\D3\{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_3		48096
+	679497602	Cylinder 1	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\C8\{C860EE68-84B7-5263-481E-DA22A76C7854}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 1		60000
+	679832758	Blaster Impact 8	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\1B\{1B1351C1-917F-13A0-1301-B9A2BE3078F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 8		30624
+	934764262	Cylinder 3	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\40\{40401D29-85AC-0C3B-D35F-A06A8011E247}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 3		60000
+	944077970	Blaster_Shot_2	C:\Users\TheWi\Documents\gitTest\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\24\{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_2		48096
 

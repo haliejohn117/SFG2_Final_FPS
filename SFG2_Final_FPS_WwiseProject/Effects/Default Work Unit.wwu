@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4E2B13FE-AC63-433F-BE46-6647A8D46927}" SchemaVersion="123">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{4E2B13FE-AC63-433F-BE46-6647A8D46927}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4E2B13FE-AC63-433F-BE46-6647A8D46927}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_Parametric_EQ" ID="{C1E16E4E-9CCF-4D18-B796-8678CF6F0FF9}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="227"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
