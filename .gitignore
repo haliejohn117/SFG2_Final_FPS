@@ -74,11 +74,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Wwise
-.backup*
 .cache*
 *.akd
 *.prof
 *.validationcache
-*.wsettings
-AkWwiseProjectData.asset
-AkWwiseProjectData.asset.meta
+*/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
