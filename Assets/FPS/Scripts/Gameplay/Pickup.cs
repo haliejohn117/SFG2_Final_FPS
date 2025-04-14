@@ -14,8 +14,11 @@ namespace Unity.FPS.Gameplay
 
         [Tooltip("Rotation angle per second")] public float RotatingSpeed = 360f;
 
-        [Tooltip("Sound played on pickup")] public AudioClip PickupSfx;
         [Tooltip("VFX spawned on pickup")] public GameObject PickupVfxPrefab;
+
+        [Header("Wwise Audio")]
+        [Tooltip("Wwise event played when the item is picked up")]
+        public AK.Wwise.Event PickupEvent;
 
         public Rigidbody PickupRigidbody { get; private set; }
 
@@ -72,9 +75,9 @@ namespace Unity.FPS.Gameplay
             if (m_HasPlayedFeedback)
                 return;
 
-            if (PickupSfx)
+            if (PickupEvent != null)
             {
-                AudioUtility.CreateSFX(PickupSfx, transform.position, AudioUtility.AudioGroups.Pickup, 0f);
+                Wwise3DEmitter.PlayOnGameObject(PickupEvent, gameObject);
             }
 
             if (PickupVfxPrefab)
