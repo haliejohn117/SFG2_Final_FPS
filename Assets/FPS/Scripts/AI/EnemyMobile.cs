@@ -24,13 +24,6 @@ namespace Unity.FPS.AI
 
         public ParticleSystem[] OnDetectVfx;
 
-        [Header("Wwise Audio")]
-        [Tooltip("Wwise event to post when the enemy is alerted")]
-        public AK.Wwise.Event EnemyAlertedEvent;
-
-        [Tooltip("Looping movement event")]
-        public AK.Wwise.Event MovementLoopEvent;
-
         public MinMaxFloat PitchDistortionMovementSpeed;
 
         public AIState AiState { get; private set; }
@@ -54,9 +47,6 @@ namespace Unity.FPS.AI
             m_EnemyController.onDamaged += OnDamaged;
 
             AiState = AIState.Patrol;
-
-            // Start looping movement sound (Wwise)
-            Wwise3DEmitter.PlayOnGameObject(MovementLoopEvent, gameObject);
         }
 
         void Update()
@@ -69,8 +59,6 @@ namespace Unity.FPS.AI
             // Update animator speed parameter
             Animator.SetFloat(k_AnimMoveSpeedParameter, moveSpeed);
 
-            // Optional RTPC for movement speed
-            // AkSoundEngine.SetRTPCValue("MoveSpeed", moveSpeed, gameObject);
         }
 
         void UpdateAiStateTransitions()
@@ -146,9 +134,6 @@ namespace Unity.FPS.AI
             {
                 vfx.Play();
             }
-
-            // Play Wwise "EnemyAlerted" event
-            Wwise3DEmitter.PlayOnGameObject(EnemyAlertedEvent, gameObject);
 
             Animator.SetBool(k_AnimAlertedParameter, true);
         }

@@ -3,7 +3,6 @@ using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
-using AK.Wwise;
 
 namespace Unity.FPS.AI
 {
@@ -44,8 +43,17 @@ namespace Unity.FPS.AI
         public float FlashOnHitDuration = 0.5f;
 
         [Header("Wwise Audio")]
+        [Tooltip("Wwise event played when taking damage")]
         public AK.Wwise.Event DamageTickEvent;
-        public AK.Wwise.Event DeathVoiceEvent;
+
+        [Tooltip("Wwise event played on death")]
+        public AK.Wwise.Event DeathEvent;
+
+        [Tooltip("Wwise event played when the enemy is alerted")]
+        public AK.Wwise.Event EnemyAlertedEvent;
+
+        [Tooltip("Looping Wwise event for enemy idle/movement")]
+        public AK.Wwise.Event IdleLoopEvent;
 
         [Header("VFX")]
         public GameObject DeathVfx;
@@ -122,6 +130,12 @@ namespace Unity.FPS.AI
 
             m_Health.OnDie += OnDie;
             m_Health.OnDamaged += OnDamaged;
+
+            // Wwise event for idle sound loop
+            if (IdleLoopEvent != null)
+            {
+                Wwise3DEmitter.PlayOnGameObject(IdleLoopEvent, gameObject);
+            }
 
             FindAndInitializeAllWeapons();
             GetCurrentWeapon().ShowWeapon(true);
@@ -200,6 +214,9 @@ namespace Unity.FPS.AI
 
         void OnDetectedTarget()
         {
+            // Wwise "EnemyAlerted" event, calls through
+            Wwise3DEmitter.PlayOnGameObject(EnemyAlertedEvent, gameObject);
+
             onDetectedTarget?.Invoke();
             if (m_EyeRendererData.Renderer != null)
             {
@@ -227,14 +244,15 @@ namespace Unity.FPS.AI
 
         void OnDie()
         {
-            if (m_EnemyMobile != null && m_EnemyMobile.MovementLoopEvent != null)
+            // Stop looping idle sound
+            if (IdleLoopEvent != null)
             {
-                m_EnemyMobile.MovementLoopEvent.Stop(gameObject);
+                IdleLoopEvent.Stop(gameObject);
             }
 
-            if (DeathVoiceEvent != null)
+            if (DeathEvent != null)
             {
-                DeathVoiceEvent.Post(gameObject);
+                DeathEvent.Post(gameObject);
             }
 
             var vfx = Instantiate(DeathVfx, DeathVfxSpawnPoint.position, Quaternion.identity);
