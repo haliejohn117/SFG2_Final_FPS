@@ -130,6 +130,9 @@ namespace Unity.FPS.Game
         AudioSource m_ContinuousShootAudioSource = null;
         bool m_WantsToShoot = false;
 
+        [Header("Wwise Integrations")]
+        public AK.Wwise.Event WeaponFire;
+
         public UnityAction OnShoot;
         public event Action OnShootProcessed;
 
@@ -397,7 +400,7 @@ namespace Unity.FPS.Game
             {
                 HandleShoot();
                 m_CurrentAmmo -= 1f;
-
+                WeaponFire.Post(gameObject);
                 return true;
             }
 

@@ -1,7 +1,17 @@
 {
     "name": "fps.Game",
+    "rootNamespace": "",
     "references": [
-        "GUID:1826c0224c0d048b88112c79bbb0cd85"
+        "GUID:1826c0224c0d048b88112c79bbb0cd85",
+        "GUID:db83e1d18631b4d959e68674ba24dc4b",
+        "GUID:2ea7d986063354dc0ad829f85ce231a0",
+        "GUID:d96caf006b4ef48e694c089725995297",
+        "GUID:82e48283f833047e08ecdb404e11d460",
+        "GUID:0ff0210beab654bcc802abdd82b198d8",
+        "GUID:ad4acb3bf42974578ab65f46e286526b",
+        "GUID:e97a3ada8d8e94961a3fb742523f544e",
+        "GUID:d160f73c28ca84592bc20c0d6dd47b96",
+        "GUID:c51d7cfe2c4984fe7bf47c9cb087db73"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

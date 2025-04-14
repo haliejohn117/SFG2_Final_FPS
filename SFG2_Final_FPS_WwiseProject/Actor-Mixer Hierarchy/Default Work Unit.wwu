@@ -630,6 +630,41 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="PlaceHolder" ID="{EA139931-CBEE-4D55-B81E-F6AB850CE541}" ShortID="48350005">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TOONSqk_Air Horn Squeak 01_B00M_ONE" ID="{ED6AAD30-D112-4358-8735-C2258279D0E4}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0803272207144084"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.102640337579522"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.468575538726505"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>TOONSqk_Air Horn Squeak 01_B00M_ONE.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="151262928"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TOONSqk_Air Horn Squeak 01_B00M_ONE" ID="{ED6AAD30-D112-4358-8735-C2258279D0E4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

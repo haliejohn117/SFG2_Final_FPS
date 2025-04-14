@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{739661BF-4478-4974-B1ED-AD752A301D00}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Drayne O\OneDrive - Utah Valley University\School\Spring 2025\Sound Design II (DAPR 2171)\Game Sound Assets\Bounced Files\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\Samples\SFX\BOOM\BOOM ONE\CARTOON\SQUEAK\"/>
 				<Property Name="EffectsView\MeteringObject\{C1E16E4E-9CCF-4D18-B796-8678CF6F0FF9}" Type="string" Value="{40534904-B805-4EDD-9F2F-25CD8FB9B25F}"/>
 				<Property Name="Event Action List\{21FF2AF8-ED61-42C6-87C7-35B0CF431B32}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}\x64_Expand States" Type="string" Value=""/>
