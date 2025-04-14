@@ -81,6 +81,36 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Placeholder_Event" ID="{CDCD0E36-C02E-4021-A3DF-6722C152716D}">
+					<ChildrenList>
+						<Action Name="" ID="{83B3F124-C124-4B15-9D86-B1B6D0CC35AF}" ShortID="287896068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PlaceHolder" ID="{EA139931-CBEE-4D55-B81E-F6AB850CE541}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Enemies" ID="{87A4AB37-BE6A-4DEA-9CD0-A4C3B3A89036}" ShortID="63463895">
+					<ChildrenList>
+						<Folder Name="HoverBot" ID="{1C4ECC4A-5EB6-4EF4-87F5-F02ED66464CD}" ShortID="996533226">
+							<ChildrenList>
+								<Event Name="HoverBot_Alerted" ID="{E924E94F-AAD1-4083-BB7F-D210221C260A}">
+									<ChildrenList>
+										<Action Name="" ID="{4CC79AE2-5A43-448F-8958-3A45441573C1}" ShortID="558022566">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HoverBot_Alerted" ID="{52DDE75B-C76C-4164-B765-3B5C2BB8939C}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

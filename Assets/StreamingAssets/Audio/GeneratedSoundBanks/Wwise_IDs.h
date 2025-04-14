@@ -19,6 +19,8 @@ namespace AK
         static const AkUniqueID BLASTER_CYLLINDER_4 = 236527718U;
         static const AkUniqueID BLASTER_FIRE = 639453935U;
         static const AkUniqueID BLASTER_SHOT_IMPACT_VFX = 1073526629U;
+        static const AkUniqueID HOVERBOT_ALERTED = 1493205860U;
+        static const AkUniqueID PLACEHOLDER_EVENT = 2513698745U;
     } // namespace EVENTS
 
     namespace BANKS

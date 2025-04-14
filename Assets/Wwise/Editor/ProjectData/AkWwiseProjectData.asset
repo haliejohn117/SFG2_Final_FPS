@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c8ec1b148ff09f48aeb58bf1564c4f6f
     GuidInternal: 
-    m_lastTime: -8584570266779402438
+    m_lastTime: -8584570037015046978
     List:
     - name: Blaster
       guid: 341c9c36436c2e41b3b953e35cc5d9a8
@@ -286,9 +286,86 @@ MonoBehaviour:
         ObjectType: 3
         guid: f4f57527c2561f45b8a2c40eb4baddb9
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX
-      maxAttenuation: 50
+      maxAttenuation: 20
       maxDuration: 0.36213475
       minDuration: 0.28330576
+    - name: Enemies
+      guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      id: 2242381963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      Path: Events\Default Work Unit\Enemies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HoverBot
+      guid: 4acc4e1cb65ef44e87f5f02ed66464cd
+      id: 3333669516
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: HoverBot
+        ObjectType: 4
+        guid: 4acc4e1cb65ef44e87f5f02ed66464cd
+      Path: Events\Default Work Unit\Enemies\HoverBot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: HoverBot_Alerted
+      guid: 4fe924e9d1aa8340bb7fd210221c260a
+      id: 1493205860
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: HoverBot
+        ObjectType: 4
+        guid: 4acc4e1cb65ef44e87f5f02ed66464cd
+      - ElementName: HoverBot_Alerted
+        ObjectType: 3
+        guid: 4fe924e9d1aa8340bb7fd210221c260a
+      Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Alerted
+      maxAttenuation: 20
+      maxDuration: 0.9166667
+      minDuration: 0.9166667
+    - name: Placeholder_Event
+      guid: 360ecdcd2ec02140a3df6722c152716d
+      id: 2513698745
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Placeholder_Event
+        ObjectType: 3
+        guid: 360ecdcd2ec02140a3df6722c152716d
+      Path: Events\Default Work Unit\Placeholder_Event
+      maxAttenuation: 0
+      maxDuration: 0.3659352
+      minDuration: 0.3659352
     - name: Weapons
       guid: 7575ae15aa4a9e47be07aba86a3e35e2
       id: 1467963052
@@ -363,7 +440,7 @@ MonoBehaviour:
     m_lastTime: -8584575757459848228
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000800000013000000140000001500000016000000170000001800000019000000
+  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000700000008000000130000001400000015000000160000001700000018000000190000001b0000001c0000001e000000d0000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

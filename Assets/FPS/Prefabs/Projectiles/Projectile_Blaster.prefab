@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3659995153115176982}
   - component: {fileID: 8924682559891268397}
-  - component: {fileID: 1429311898508572727}
   m_Layer: 0
   m_Name: Projectile_Blaster
   m_TagString: Untagged
@@ -65,30 +64,11 @@ MonoBehaviour:
   Damage: 15
   AreaOfDamage: {fileID: 0}
   RadiusColor: {r: 0, g: 1, b: 0.9007921, a: 1}
---- !u!114 &1429311898508572727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3659995153115176983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2306aa88e4dbc4c2ba6e4df8902cf7aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
+  ProjectileImpactEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e4e5b6394c9666346b076bc68ab3cffe,
+      type: 2}
 --- !u!1 &5564024855854763701
 GameObject:
   m_ObjectHideFlags: 0

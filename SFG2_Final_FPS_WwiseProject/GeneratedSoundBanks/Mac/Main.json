@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
     "Language": "SFX",
-    "Hash": "{07073A71-4C6F-8025-EA25-202194FC3E97}",
+    "Hash": "{1DE28BE9-65C6-8845-44E5-7B2186304E39}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "Cylinder 4.wav",
       "CachePath": "AE/{AE088CB4-8747-73AC-07B9-AACCF36618EE}.wem"
+     },
+     {
+      "Id": "151262928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TOONSqk_Air Horn Squeak 01_B00M_ONE.wav",
+      "CachePath": "86/{86012BFF-D72C-C7D9-3149-77F9C2843480}.wem"
      },
      {
       "Id": "165605077",
@@ -102,6 +110,14 @@
       "Location": "Memory",
       "ShortName": "Blster Impact 3.wav",
       "CachePath": "BD/{BD40014A-7972-8667-8088-39CB57C91AAD}.wem"
+     },
+     {
+      "Id": "537180805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Alerted_01.wav",
+      "CachePath": "E6/{E6AD8B1C-1ED9-26D6-A293-6EBC37B5ED25}.wem"
      },
      {
       "Id": "625908631",
@@ -242,7 +258,7 @@
       "Name": "Blaster_Shot_Impact_VFX",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Shot_Impact_VFX",
       "GUID": "{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.28330576",
       "DurationMax": "0.36213475",
@@ -279,10 +295,39 @@
         }
        ]
       }
+     },
+     {
+      "Id": "1493205860",
+      "Name": "HoverBot_Alerted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Alerted",
+      "GUID": "{E924E94F-AAD1-4083-BB7F-D210221C260A}",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9166667",
+      "DurationMax": "0.9166667",
+      "MediaRefs": [
+       {
+        "Id": "537180805"
+       }
+      ]
+     },
+     {
+      "Id": "2513698745",
+      "Name": "Placeholder_Event",
+      "ObjectPath": "\\Events\\Default Work Unit\\Placeholder_Event",
+      "GUID": "{CDCD0E36-C02E-4021-A3DF-6722C152716D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3659352",
+      "DurationMax": "0.3659352",
+      "MediaRefs": [
+       {
+        "Id": "151262928"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{4B92E067-9391-1D1C-5842-AC0EF10BFA17}"
+  "FileHash": "{D7F6A306-A89C-D068-BB1C-75C95CF05804}"
  }
 }
