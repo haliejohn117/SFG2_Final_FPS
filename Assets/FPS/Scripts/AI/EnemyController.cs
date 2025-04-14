@@ -43,17 +43,25 @@ namespace Unity.FPS.AI
         public float FlashOnHitDuration = 0.5f;
 
         [Header("Wwise Audio")]
+        [Tooltip("Wwise event played when the enemy is alerted")]
+        public AK.Wwise.Event AlertedInEvent;
+
+        [Tooltip("Wwise event played when the enemy loses the player")]
+        public AK.Wwise.Event AlertOutEvent;
+
         [Tooltip("Wwise event played when taking damage")]
         public AK.Wwise.Event DamageTickEvent;
 
         [Tooltip("Wwise event played on death")]
         public AK.Wwise.Event DeathEvent;
 
-        [Tooltip("Wwise event played when the enemy is alerted")]
-        public AK.Wwise.Event EnemyAlertedEvent;
+        [Tooltip("Wwise event played when the enemy fires a weapon")]
+        public AK.Wwise.Event EnemyShootEvent;
 
         [Tooltip("Looping Wwise event for enemy idle/movement")]
         public AK.Wwise.Event IdleLoopEvent;
+        [Tooltip("Stop IdleLoopEvent when enemy detects the player")]
+        public bool StopIdleLoopOnDetect = true;
 
         [Header("VFX")]
         public GameObject DeathVfx;
@@ -193,6 +201,14 @@ namespace Unity.FPS.AI
             m_WasDamagedThisFrame = false;
         }
 
+        void StopIdleLoop()
+        {
+            if (IdleLoopEvent != null)
+            {
+                IdleLoopEvent.Stop(gameObject);
+            }
+        }
+
         void EnsureIsWithinLevelBounds()
         {
             if (transform.position.y < SelfDestructYHeight)
@@ -205,6 +221,18 @@ namespace Unity.FPS.AI
         void OnLostTarget()
         {
             onLostTarget?.Invoke();
+
+            if (AlertOutEvent != null)
+            {
+                Wwise3DEmitter.PlayOnGameObject(AlertOutEvent, gameObject);
+            }
+
+            // Restart idle loop if it stopped
+            if (IdleLoopEvent != null)
+            {
+                Wwise3DEmitter.PlayOnGameObject(IdleLoopEvent, gameObject);
+            }
+
             if (m_EyeRendererData.Renderer != null)
             {
                 m_EyeColorMaterialPropertyBlock.SetColor("_EmissionColor", DefaultEyeColor);
@@ -214,10 +242,21 @@ namespace Unity.FPS.AI
 
         void OnDetectedTarget()
         {
-            // Wwise "EnemyAlerted" event, calls through
-            Wwise3DEmitter.PlayOnGameObject(EnemyAlertedEvent, gameObject);
-
             onDetectedTarget?.Invoke();
+
+            // Stop idle loop when enemy is alerted if box is checked
+            if (StopIdleLoopOnDetect)
+            {
+                StopIdleLoop();
+            }
+
+            // Wwise "EnemyAlerted" event
+            // Not sure if this needs to be an if statement, if something breaks try removing it
+            if (AlertedInEvent != null)
+            {
+                Wwise3DEmitter.PlayOnGameObject(AlertedInEvent, gameObject);
+            }
+
             if (m_EyeRendererData.Renderer != null)
             {
                 m_EyeColorMaterialPropertyBlock.SetColor("_EmissionColor", AttackEyeColor);
@@ -244,11 +283,8 @@ namespace Unity.FPS.AI
 
         void OnDie()
         {
-            // Stop looping idle sound
-            if (IdleLoopEvent != null)
-            {
-                IdleLoopEvent.Stop(gameObject);
-            }
+            // Stop looping idle sound if it's playing
+            StopIdleLoop();
 
             if (DeathEvent != null)
             {
@@ -360,9 +396,14 @@ namespace Unity.FPS.AI
 
             bool didFire = GetCurrentWeapon().HandleShootInputs(false, true, false);
 
+
             if (didFire)
             {
                 onAttack?.Invoke();
+                if (EnemyShootEvent != null)
+                {
+                    Wwise3DEmitter.PlayOnGameObject(EnemyShootEvent, gameObject);
+                }
 
                 if (SwapToNextWeapon && m_Weapons.Length > 1)
                 {
