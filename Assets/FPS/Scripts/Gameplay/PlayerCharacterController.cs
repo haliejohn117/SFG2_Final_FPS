@@ -84,6 +84,9 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Wwise event played when the player takes fall damage")]
         public AK.Wwise.Event FallDamageEvent;
 
+        [Tooltip("Wwise event played when the player dies")]
+        public AK.Wwise.Event DeathEvent;
+
 
         [Header("Fall Damage")]
         [Tooltip("Whether the player will recieve damage when hitting the ground at high speed")]
@@ -231,6 +234,11 @@ namespace Unity.FPS.Gameplay
         void OnDie()
         {
             IsDead = true;
+
+            if (DeathEvent != null)
+            {
+                Wwise3DEmitter.PlayOnGameObject(DeathEvent, gameObject);
+            }
 
             // Tell the weapons manager to switch to a non-existing weapon in order to lower the weapon
             m_WeaponsManager.SwitchToWeaponIndex(-1, true);
