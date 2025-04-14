@@ -66,13 +66,14 @@ namespace Unity.FPS.Gameplay
         public float CrouchingSharpness = 10f;
 
         [Header("Audio")] [Tooltip("Amount of footstep sounds played when moving one meter")]
+
         public float FootstepSfxFrequency = 1f;
+
+        [Tooltip("Wwise event played when the player takes a step")]
+        public AK.Wwise.Event FootstepEvent;
 
         [Tooltip("Amount of footstep sounds played when moving one meter while sprinting")]
         public float FootstepSfxFrequencyWhileSprinting = 1f;
-
-        [Tooltip("Sound played for footsteps")]
-        public AudioClip FootstepSfx;
 
         [Tooltip("Sound played when jumping")] public AudioClip JumpSfx;
         [Tooltip("Sound played when landing")] public AudioClip LandSfx;
@@ -345,8 +346,13 @@ namespace Unity.FPS.Gameplay
                     if (m_FootstepDistanceCounter >= 1f / chosenFootstepSfxFrequency)
                     {
                         m_FootstepDistanceCounter = 0f;
-                        AudioSource.PlayOneShot(FootstepSfx);
+
+                        if (FootstepEvent != null)
+                        {
+                            Wwise3DEmitter.PlayOnGameObject(FootstepEvent, gameObject);
+                        }
                     }
+
 
                     // keep track of distance traveled for footsteps sound
                     m_FootstepDistanceCounter += CharacterVelocity.magnitude * Time.deltaTime;

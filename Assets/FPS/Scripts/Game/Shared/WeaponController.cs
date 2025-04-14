@@ -25,7 +25,8 @@ namespace Unity.FPS.Game
         public Color CrosshairColor;
     }
 
-    [RequireComponent(typeof(AudioSource))]
+    // Unity audio begone
+    // [RequireComponent(typeof(AudioSource))] 
     public class WeaponController : MonoBehaviour
     {
         [Header("Information")] [Tooltip("The name that will be displayed in the UI for this weapon")]
@@ -107,7 +108,7 @@ namespace Unity.FPS.Game
         [Tooltip("Additional ammo used when charge reaches its maximum")]
         public float AmmoUsageRateWhileCharging = 1f;
 
-        [Header("Audio & Visual")] 
+        [Header("Visuals")] 
         [Tooltip("Optional weapon animator for OnShoot animations")]
         public Animator WeaponAnimator;
 
@@ -116,22 +117,22 @@ namespace Unity.FPS.Game
 
         [Tooltip("Unparent the muzzle flash instance on spawn")]
         public bool UnparentMuzzleFlash;
-
-        [Tooltip("sound played when shooting")]
-        public AudioClip ShootSfx;
-
-        [Tooltip("Sound played when changing to this weapon")]
-        public AudioClip ChangeWeaponSfx;
-
+        
         [Tooltip("Continuous Shooting Sound")] public bool UseContinuousShootSound = false;
+        /*
         public AudioClip ContinuousShootStartSfx;
         public AudioClip ContinuousShootLoopSfx;
         public AudioClip ContinuousShootEndSfx;
+        */
         AudioSource m_ContinuousShootAudioSource = null;
         bool m_WantsToShoot = false;
-
+        
         [Header("Wwise Integrations")]
-        public AK.Wwise.Event WeaponFire;
+        [Tooltip("Wwise event played when this weapon is fired")]
+        public AK.Wwise.Event WeaponFireEvent;
+
+        [Tooltip("Wwise event played when this weapon is drawn")]
+        public AK.Wwise.Event WeaponSwitchToEvent;
 
         public UnityAction OnShoot;
         public event Action OnShootProcessed;
@@ -139,6 +140,7 @@ namespace Unity.FPS.Game
         int m_CarriedPhysicalBullets;
         float m_CurrentAmmo;
         float m_LastTimeShot = Mathf.NegativeInfinity;
+        float m_LastTimeShotAudioPlayed;
         public float LastChargeTriggerTimestamp { get; private set; }
         Vector3 m_LastMuzzlePosition;
 
@@ -158,8 +160,6 @@ namespace Unity.FPS.Game
         public int GetCarriedPhysicalBullets() => m_CarriedPhysicalBullets;
         public int GetCurrentAmmo() => Mathf.FloorToInt(m_CurrentAmmo);
 
-        AudioSource m_ShootAudioSource;
-
         public bool IsReloading { get; private set; }
 
         const string k_AnimAttackParameter = "Attack";
@@ -172,18 +172,19 @@ namespace Unity.FPS.Game
             m_CarriedPhysicalBullets = HasPhysicalBullets ? ClipSize : 0;
             m_LastMuzzlePosition = WeaponMuzzle.position;
 
-            m_ShootAudioSource = GetComponent<AudioSource>();
-            DebugUtility.HandleErrorIfNullGetComponent<AudioSource, WeaponController>(m_ShootAudioSource, this,
-                gameObject);
+            // DebugUtility.HandleErrorIfNullGetComponent<AudioSource, WeaponController>(m_ShootAudioSource, this,
+            //    gameObject);
 
             if (UseContinuousShootSound)
             {
+                /*
                 m_ContinuousShootAudioSource = gameObject.AddComponent<AudioSource>();
                 m_ContinuousShootAudioSource.playOnAwake = false;
                 m_ContinuousShootAudioSource.clip = ContinuousShootLoopSfx;
                 m_ContinuousShootAudioSource.outputAudioMixerGroup =
                     AudioUtility.GetAudioGroup(AudioUtility.AudioGroups.WeaponShoot);
                 m_ContinuousShootAudioSource.loop = true;
+                */
             }
 
             if (HasPhysicalBullets)
@@ -320,15 +321,13 @@ namespace Unity.FPS.Game
                 {
                     if (!m_ContinuousShootAudioSource.isPlaying)
                     {
-                        m_ShootAudioSource.PlayOneShot(ShootSfx);
-                        m_ShootAudioSource.PlayOneShot(ContinuousShootStartSfx);
-                        m_ContinuousShootAudioSource.Play();
+                        // TODO: Wwise calls
                     }
                 }
                 else if (m_ContinuousShootAudioSource.isPlaying)
                 {
-                    m_ShootAudioSource.PlayOneShot(ContinuousShootEndSfx);
-                    m_ContinuousShootAudioSource.Stop();
+                    // m_ShootAudioSource.PlayOneShot(ContinuousShootEndSfx);
+                    // m_ContinuousShootAudioSource.Stop();
                 }
             }
         }
@@ -337,9 +336,9 @@ namespace Unity.FPS.Game
         {
             WeaponRoot.SetActive(show);
 
-            if (show && ChangeWeaponSfx)
+            if (show && WeaponSwitchToEvent != null)
             {
-                m_ShootAudioSource.PlayOneShot(ChangeWeaponSfx);
+                Wwise3DEmitter.PlayOnGameObject(WeaponSwitchToEvent, gameObject);
             }
 
             IsWeaponActive = show;
@@ -400,7 +399,7 @@ namespace Unity.FPS.Game
             {
                 HandleShoot();
                 m_CurrentAmmo -= 1f;
-                WeaponFire.Post(gameObject);
+                WeaponFireEvent.Post(gameObject);
                 return true;
             }
 
@@ -477,10 +476,18 @@ namespace Unity.FPS.Game
 
             m_LastTimeShot = Time.time;
 
-            // play shoot SFX
+            // Could be important for wwise events later
+            /* play shoot SFX
             if (ShootSfx && !UseContinuousShootSound)
             {
                 m_ShootAudioSource.PlayOneShot(ShootSfx);
+            }
+            */
+
+            if (WeaponFireEvent != null)
+            {
+                WeaponFireEvent.Post(gameObject);
+                m_LastTimeShotAudioPlayed = Time.time;
             }
 
             // Trigger attack animation if there is any
