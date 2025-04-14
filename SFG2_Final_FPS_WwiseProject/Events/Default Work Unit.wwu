@@ -79,6 +79,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Shotgun" ID="{048E30D8-0707-4358-9CB7-745C594D059F}" ShortID="294967226">
+							<ChildrenList>
+								<Event Name="Shotgun_Fire" ID="{9347866B-86A6-4F82-8370-EB9A3BA55220}">
+									<ChildrenList>
+										<Action Name="" ID="{7BE2DEC5-C855-45D4-A9AB-AB002370478A}" ShortID="417792061">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shotgun_Fire" ID="{28CE83EC-5331-41A3-8B2A-A68D36B0BD9E}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Placeholder_Event" ID="{CDCD0E36-C02E-4021-A3DF-6722C152716D}">

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
     "Language": "SFX",
-    "Hash": "{1DE28BE9-65C6-8845-44E5-7B2186304E39}",
+    "Hash": "{D4402AFC-8B9C-6AA8-EF47-A638F1218410}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -64,6 +64,14 @@
       "CachePath": "B5/{B5CC1DA9-D0A6-086D-F308-F5A8765C359A}.wem"
      },
      {
+      "Id": "192293903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Shotgun_Fire_03.wav",
+      "CachePath": "5B/{5B434572-E5A9-98C6-82FE-04AF61B06BD4}.wem"
+     },
+     {
       "Id": "232753411",
       "Language": "SFX",
       "Streaming": "false",
@@ -86,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "Blaster Impact 1.wav",
       "CachePath": "54/{540BA80D-EA9D-FDCD-94F7-9FE8C001898D}.wem"
+     },
+     {
+      "Id": "307676913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Shotgun_Fire_02.wav",
+      "CachePath": "FF/{FF157DAD-AF9B-6734-3473-9F1340AE542E}.wem"
      },
      {
       "Id": "415476632",
@@ -128,6 +144,14 @@
       "CachePath": "D3/{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem"
      },
      {
+      "Id": "657763999",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Shotgun_Fire_04.wav",
+      "CachePath": "64/{6482BC7E-CB86-C199-D017-D579395AFE7D}.wem"
+     },
+     {
       "Id": "679497602",
       "Language": "SFX",
       "Streaming": "false",
@@ -158,6 +182,14 @@
       "Location": "Memory",
       "ShortName": "shot2 Master-01.L.wav",
       "CachePath": "24/{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem"
+     },
+     {
+      "Id": "1042404680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Shotgun_Fire_01.wav",
+      "CachePath": "24/{24B4AE04-02ED-2B24-4CCF-8CD06D3E1E13}.wem"
      }
     ],
     "Plugins": {
@@ -324,10 +356,33 @@
         "Id": "151262928"
        }
       ]
+     },
+     {
+      "Id": "3982195600",
+      "Name": "Shotgun_Fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\Shotgun_Fire",
+      "GUID": "{9347866B-86A6-4F82-8370-EB9A3BA55220}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.381125",
+      "DurationMax": "2.3019583",
+      "MediaRefs": [
+       {
+        "Id": "192293903"
+       },
+       {
+        "Id": "307676913"
+       },
+       {
+        "Id": "657763999"
+       },
+       {
+        "Id": "1042404680"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{504E26EC-96E3-C236-F0FA-8A9F57B168A6}"
+  "FileHash": "{3AE49592-5067-CB67-CC78-0D705CCC82A0}"
  }
 }
