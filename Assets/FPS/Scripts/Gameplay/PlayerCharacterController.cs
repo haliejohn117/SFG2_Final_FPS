@@ -65,7 +65,7 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Speed of crouching transitions")]
         public float CrouchingSharpness = 10f;
 
-        [Header("Audio")] [Tooltip("Amount of footstep sounds played when moving one meter")]
+        [Header("Wwise Audio")] [Tooltip("Amount of footstep sounds played when moving one meter")]
 
         public float FootstepSfxFrequency = 1f;
 
@@ -75,11 +75,15 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Amount of footstep sounds played when moving one meter while sprinting")]
         public float FootstepSfxFrequencyWhileSprinting = 1f;
 
-        [Tooltip("Sound played when jumping")] public AudioClip JumpSfx;
-        [Tooltip("Sound played when landing")] public AudioClip LandSfx;
+        [Tooltip("Wwise event played when the player jumps")]
+        public AK.Wwise.Event JumpEvent;
 
-        [Tooltip("Sound played when taking damage froma fall")]
-        public AudioClip FallDamageSfx;
+        [Tooltip("Wwise event played when the player lands")]
+        public AK.Wwise.Event LandEvent;
+
+        [Tooltip("Wwise event played when the player takes fall damage")]
+        public AK.Wwise.Event FallDamageEvent;
+
 
         [Header("Fall Damage")]
         [Tooltip("Whether the player will recieve damage when hitting the ground at high speed")]
@@ -196,14 +200,21 @@ namespace Unity.FPS.Gameplay
                     float dmgFromFall = Mathf.Lerp(FallDamageAtMinSpeed, FallDamageAtMaxSpeed, fallSpeedRatio);
                     m_Health.TakeDamage(dmgFromFall, null);
 
-                    // fall damage SFX
-                    AudioSource.PlayOneShot(FallDamageSfx);
+                    // Wwise fall damage event
+                    if (FallDamageEvent != null)
+                    {
+                        Wwise3DEmitter.PlayOnGameObject(FallDamageEvent, gameObject);
+                    }
                 }
                 else
                 {
-                    // land SFX
-                    AudioSource.PlayOneShot(LandSfx);
+                    // Wwise land event
+                    if (LandEvent != null)
+                    {
+                        Wwise3DEmitter.PlayOnGameObject(LandEvent, gameObject);
+                    }
                 }
+
             }
 
             // crouching
@@ -328,7 +339,10 @@ namespace Unity.FPS.Gameplay
                             CharacterVelocity += Vector3.up * JumpForce;
 
                             // play sound
-                            AudioSource.PlayOneShot(JumpSfx);
+                            if (JumpEvent != null)
+                            {
+                                Wwise3DEmitter.PlayOnGameObject(JumpEvent, gameObject);
+                            }
 
                             // remember last time we jumped because we need to prevent snapping to ground for a short time
                             m_LastTimeJumped = Time.time;
