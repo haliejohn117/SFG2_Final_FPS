@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c8ec1b148ff09f48aeb58bf1564c4f6f
     GuidInternal: 
-    m_lastTime: -8584569476461733137
+    m_lastTime: -8584564295259822392
     List:
     - name: Blaster
       guid: 341c9c36436c2e41b3b953e35cc5d9a8
@@ -140,8 +140,8 @@ MonoBehaviour:
         guid: 9535c69a93fdb5489d14ae8bbabde2e3
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_1
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.624
+      minDuration: 0.624
     - name: Blaster_Cyllinder_2
       guid: 2b06d3a4b041ad49a12aadc2f2ccc328
       id: 236527712
@@ -166,8 +166,8 @@ MonoBehaviour:
         guid: 2b06d3a4b041ad49a12aadc2f2ccc328
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_2
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.624
+      minDuration: 0.624
     - name: Blaster_Cyllinder_3
       guid: 9a8897677e21a24da1e42fcbd7d6b8ff
       id: 236527713
@@ -192,8 +192,8 @@ MonoBehaviour:
         guid: 9a8897677e21a24da1e42fcbd7d6b8ff
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_3
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.624
+      minDuration: 0.624
     - name: Blaster_Cyllinder_4
       guid: f75506c63a0af84a890b8e8d8d2be285
       id: 236527718
@@ -218,8 +218,8 @@ MonoBehaviour:
         guid: f75506c63a0af84a890b8e8d8d2be285
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_4
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.624
+      minDuration: 0.624
     - name: Blaster_Fire
       guid: 9a7069d0a02a2d4ea41e5253325f16c3
       id: 639453935
@@ -240,9 +240,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9a7069d0a02a2d4ea41e5253325f16c3
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Fire
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 100
+      maxDuration: 0.60325223
+      minDuration: 0.4144203
     - name: Blaster_Reload
       guid: 5444a582b6379748a8d99276194c95d5
       id: 1245297744
@@ -286,9 +286,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f4f57527c2561f45b8a2c40eb4baddb9
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 20
+      maxDuration: 0.36213475
+      minDuration: 0.28330576
     - name: Enemies
       guid: 37aba4876abeea4d9cd0a4c3b3a89036
       id: 2242381963
@@ -346,9 +346,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4fe924e9d1aa8340bb7fd210221c260a
       Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Alerted
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 20
+      maxDuration: 0.9166667
+      minDuration: 0.9166667
     - name: Placeholder_Event
       guid: 360ecdcd2ec02140a3df6722c152716d
       id: 2513698745
@@ -364,8 +364,51 @@ MonoBehaviour:
         guid: 360ecdcd2ec02140a3df6722c152716d
       Path: Events\Default Work Unit\Placeholder_Event
       maxAttenuation: 0
+      maxDuration: 0.3659352
+      minDuration: 0.3659352
+    - name: Shotgun
+      guid: d8308e04070758439cb7745c594d059f
+      id: 51683977
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Shotgun
+        ObjectType: 4
+        guid: d8308e04070758439cb7745c594d059f
+      Path: Events\Default Work Unit\Weapons\Shotgun
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Shotgun_Fire
+      guid: 6b864793a686824f8370eb9a3ba55220
+      id: 3982195600
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Shotgun
+        ObjectType: 4
+        guid: d8308e04070758439cb7745c594d059f
+      - ElementName: Shotgun_Fire
+        ObjectType: 3
+        guid: 6b864793a686824f8370eb9a3ba55220
+      Path: Events\Default Work Unit\Weapons\Shotgun\Shotgun_Fire
+      maxAttenuation: 0
+      maxDuration: 2.3019583
+      minDuration: 1.381125
     - name: Weapons
       guid: 7575ae15aa4a9e47be07aba86a3e35e2
       id: 1467963052

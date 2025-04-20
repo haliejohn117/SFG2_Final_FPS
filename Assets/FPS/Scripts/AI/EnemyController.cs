@@ -49,8 +49,11 @@ namespace Unity.FPS.AI
         [Tooltip("Wwise event played when the enemy loses the player")]
         public AK.Wwise.Event AlertOutEvent;
 
-        [Tooltip("Wwise event played when taking damage")]
-        public AK.Wwise.Event DamageTickEvent;
+        [Tooltip("Wwise event played when taking damage while alerted")]
+        public AK.Wwise.Event DamageEventActive;
+
+        [Tooltip("Wwise event played when taking damage while idle/passive")]
+        public AK.Wwise.Event DamageEventPassive;
 
         [Tooltip("Wwise event played on death")]
         public AK.Wwise.Event DeathEvent;
@@ -111,6 +114,16 @@ namespace Unity.FPS.AI
         NavigationModule m_NavigationModule;
 
         EnemyMobile m_EnemyMobile;
+
+        [SerializeField] EnemyState m_DebugStateDisplay;
+
+        public enum EnemyState
+        {
+            Passive,
+            Alerted
+        }
+
+        EnemyState m_CurrentState = EnemyState.Passive;
 
         void Start()
         {
@@ -188,6 +201,7 @@ namespace Unity.FPS.AI
 
         void Update()
         {
+            m_DebugStateDisplay = m_CurrentState;
             EnsureIsWithinLevelBounds();
             DetectionModule.HandleTargetDetection(m_Actor, m_SelfColliders);
 
@@ -220,6 +234,7 @@ namespace Unity.FPS.AI
 
         void OnLostTarget()
         {
+            m_CurrentState = EnemyState.Passive;
             onLostTarget?.Invoke();
 
             if (AlertOutEvent != null)
@@ -242,6 +257,7 @@ namespace Unity.FPS.AI
 
         void OnDetectedTarget()
         {
+            m_CurrentState = EnemyState.Alerted;
             onDetectedTarget?.Invoke();
 
             // Stop idle loop when enemy is alerted if box is checked
@@ -272,9 +288,16 @@ namespace Unity.FPS.AI
                 onDamaged?.Invoke();
                 m_LastTimeDamaged = Time.time;
 
-                if (DamageTickEvent != null && !m_WasDamagedThisFrame)
+                if (!m_WasDamagedThisFrame)
                 {
-                    DamageTickEvent.Post(gameObject);
+                    if (m_CurrentState == EnemyState.Alerted && DamageEventActive != null)
+                    {
+                        DamageEventActive.Post(gameObject);
+                    }
+                    else if (m_CurrentState == EnemyState.Passive && DamageEventPassive != null)
+                    {
+                        DamageEventPassive.Post(gameObject);
+                    }
                 }
 
                 m_WasDamagedThisFrame = true;
