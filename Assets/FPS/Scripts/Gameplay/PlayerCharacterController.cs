@@ -87,6 +87,9 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Wwise event played when the player dies")]
         public AK.Wwise.Event DeathEvent;
 
+        [Tooltip("RTPC that represents current player health (0-100)")]
+        public AK.Wwise.RTPC PlayerHealthRTPC;
+
 
         [Header("Fall Damage")]
         [Tooltip("Whether the player will recieve damage when hitting the ground at high speed")]
@@ -229,6 +232,7 @@ namespace Unity.FPS.Gameplay
             UpdateCharacterHeight(false);
 
             HandleCharacterMovement();
+            UpdatePlayerHealthRTPC();
         }
 
         void OnDie()
@@ -460,6 +464,18 @@ namespace Unity.FPS.Gameplay
                     Vector3.up * m_TargetCharacterHeight * CameraHeightRatio, CrouchingSharpness * Time.deltaTime);
                 m_Actor.AimPoint.transform.localPosition = m_Controller.center;
             }
+        }
+        void UpdatePlayerHealthRTPC()
+        {
+            if (PlayerHealthRTPC == null || m_Health == null)
+                return;
+
+            float currentHealth = m_Health.CurrentHealth;
+            float maxHealth = m_Health.MaxHealth;
+
+            float normalizedHealth = Mathf.Clamp01(currentHealth / maxHealth) * 100f;
+
+            PlayerHealthRTPC.SetValue(gameObject, normalizedHealth);
         }
 
         // returns false if there was an obstruction

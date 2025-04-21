@@ -125,6 +125,7 @@ namespace Unity.FPS.AI
 
         EnemyState m_CurrentState = EnemyState.Passive;
 
+
         void Start()
         {
             m_EnemyManager = FindObjectOfType<EnemyManager>();
@@ -327,6 +328,16 @@ namespace Unity.FPS.AI
             Destroy(gameObject, DeathDuration);
         }
 
+        void OnEnable()
+        {
+            EnemyTracker.Instance?.Register(this);
+        }
+
+        void OnDestroy()
+        {
+            EnemyTracker.Instance?.Unregister(this);
+        }
+
         public void OrientTowards(Vector3 lookPosition)
         {
             Vector3 lookDirection = Vector3.ProjectOnPlane(lookPosition - transform.position, Vector3.up).normalized;
@@ -470,6 +481,8 @@ namespace Unity.FPS.AI
 
             m_LastTimeWeaponSwapped = SwapToNextWeapon ? Time.time : Mathf.NegativeInfinity;
         }
+
+        public EnemyState CurrentState => m_CurrentState;
 
         void OnDrawGizmosSelected()
         {
