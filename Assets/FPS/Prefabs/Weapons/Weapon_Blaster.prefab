@@ -207,9 +207,9 @@ MonoBehaviour:
   EjectionPort: {fileID: 0}
   ShellCasingEjectionForce: 2
   ShellPoolSize: 1
-  AmmoReloadRate: 16
-  AmmoReloadDelay: 1
-  MaxAmmo: 16
+  AmmoReloadRate: 20
+  AmmoReloadDelay: 0.7
+  MaxAmmo: 20
   AutomaticReleaseOnCharged: 0
   MaxChargeDuration: 2
   AmmoUsedOnStartCharge: 1
@@ -219,14 +219,17 @@ MonoBehaviour:
     type: 3}
   UnparentMuzzleFlash: 0
   UseContinuousShootSound: 0
-  ContinuousShootStartSfx: {fileID: 0}
-  ContinuousShootLoopSfx: {fileID: 0}
-  ContinuousShootEndSfx: {fileID: 0}
   WeaponFireEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: dbef7d10095051045a595dbde2b34624,
       type: 2}
+  ReloadEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7c827973026622748929a1b5a82849c8,
+      type: 2}
+  ReloadDuration: 1.8
   WeaponSwitchToEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -243,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc94179cece5b4e41ae9298ddbf83fdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SimultaneousFuelCellsUsage: 1
+  SimultaneousFuelCellsUsage: 0
   FuelCells:
   - {fileID: 6867164318175680859}
   - {fileID: 6867164318175680855}
@@ -296,40 +299,6 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   OverheatingMaterial: {fileID: 2100000, guid: 0c55f53a7bb3c354ababeb18b89c2fce, type: 2}
-  CoolingCellsSound: {fileID: 8300000, guid: 93331a7c9fe98494a84f18effb358899, type: 3}
-  AmmoToVolumeRatioCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 1.25
-      outSlope: 1.25
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.8
-      value: 1
-      inSlope: -0.0030681617
-      outSlope: -0.0030681617
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 1
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!82 &8090847488450120274
 AudioSource:
   m_ObjectHideFlags: 0

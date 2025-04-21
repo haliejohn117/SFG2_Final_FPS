@@ -77,6 +77,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Blaster_Reload_Tink" ID="{BB672B19-F26C-4EA8-95C7-810E83F7A62C}">
+									<ChildrenList>
+										<Action Name="" ID="{61AC8609-DCD6-487D-A6E0-2EAF333D38CC}" ShortID="666911949">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blaster_Reload_Tink" ID="{E777F007-6B86-4CD9-845F-58E08E7A67B5}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blaster_Reload_Hiss" ID="{0F09E33B-E1CF-46F8-8FDD-BAE1912502A7}">
+									<ChildrenList>
+										<Action Name="" ID="{AF9D6436-8C90-494D-AC64-8AB5FC22481D}" ShortID="638090722">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blaster_Reload" ID="{23EBA435-8843-45BC-903D-BAC3A8446DBE}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Shotgun" ID="{048E30D8-0707-4358-9CB7-745C594D059F}" ShortID="294967226">

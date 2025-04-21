@@ -7,9 +7,11 @@
 				<Property Name="Attenuation\{F060FDD0-325F-4E2F-AFA3-A89ED772D336}\x64_DropdownPath1" Type="string" Value="LwBEAGkAcwB0AGEAbgBjAGUAAACcAQAAAgAAAJwBAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABruA2h/H8AAPoBYAAAAAAA2gAAAAAAAABwuxGGnAEAANnfmu5kAAAABAAAAAAAAAAAAAAAAAAAAAAAAACcAQAAQB3q+ZwBAADQQryLnAEAAAAA6vmcAQAArALq+ZwBAAAw9QmGnAEAADAAAAAAAAAAIA3q+ZwBAAAAAOr5nAEAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAM35nAEAAGngmu5kAAAAAwAAAAAAAADHsw2h/H8AAAAA6vmcAQAAAgAAAPx/AAAgAAAAAAAAAAAAAACcAQAAFwAAAAAAAAAgbACGnAEAAAAAAAACAAAAAACa7mQAAAAAAOr5nAEAAFvw/Z78fwAAMCgihpwBAAAAAAAAAAAAAP//////////MAAAAAAAAABOAAAAAAAAALBLz4WcAQAA4Oua7mQAAAAAAAAAAAAAABBuAIacAQAAsUcNofx/AABOAAAAAAAAAAAAzfmcAQAACeGa7mQAAAAAAAAAAAAAAAAAAAAAAAAA6USAcvt/AAAo/YBy+38AAAgAAAAAAAAA4Oua7mQAAAAAAAAAAAAAAP//////////IAAAAAAAAAA="/>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Drayne O\OneDrive - Utah Valley University\School\Spring 2025\Sound Design II (DAPR 2171)\Game Sound Assets\Bounced Files\"/>
 				<Property Name="EffectsView\MeteringObject\{C1E16E4E-9CCF-4D18-B796-8678CF6F0FF9}" Type="string" Value="{40534904-B805-4EDD-9F2F-25CD8FB9B25F}"/>
+				<Property Name="Event Action List\{0F09E33B-E1CF-46F8-8FDD-BAE1912502A7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{21FF2AF8-ED61-42C6-87C7-35B0CF431B32}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9424C9D7-5AE0-4B52-B7CC-70CB5F4BAAED}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BB672B19-F26C-4EA8-95C7-810E83F7A62C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CDCD0E36-C02E-4021-A3DF-6722C152716D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D069709A-2AA0-4E2D-A41E-5253325F16C3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E924E94F-AAD1-4083-BB7F-D210221C260A}\x64_Expand States" Type="string" Value=""/>

@@ -540,6 +540,161 @@
 										</ObjectList>
 									</ObjectLists>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Blaster_Reload_Tink" ID="{E777F007-6B86-4CD9-845F-58E08E7A67B5}" ShortID="915020543">
+									<PropertyList>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Weapon_Blaster_Tink_01" ID="{DE9D68F2-7BF1-4153-A379-46AAB9E7FF93}" ShortID="594358066">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon_Blaster_Tink_01" ID="{4D66C580-A957-4870-9DDD-5D7ED1824D2F}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon_Blaster_Tink_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="888440822"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon_Blaster_Tink_01" ID="{4D66C580-A957-4870-9DDD-5D7ED1824D2F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Weapon_Blaster_Tink_02" ID="{FF9AC31B-1A9D-4994-91B4-29C6348AF922}" ShortID="776643167">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon_Blaster_Tink_02" ID="{40CDF08D-F89C-46A5-B39C-707D02E4DCBD}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon_Blaster_Tink_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="588372694"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon_Blaster_Tink_02" ID="{40CDF08D-F89C-46A5-B39C-707D02E4DCBD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Weapon_Blaster_Tink_03" ID="{5A0DDAAC-1F04-41A6-B51D-AF65815F5440}" ShortID="651569118">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon_Blaster_Tink_03" ID="{34D3AC7F-31CF-4956-9A7C-76B8BC8C878B}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon_Blaster_Tink_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="728096363"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon_Blaster_Tink_03" ID="{34D3AC7F-31CF-4956-9A7C-76B8BC8C878B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Weapon_Blaster_Tink_04" ID="{37D30F6C-0132-4F00-A6BE-09A0CF6FCB63}" ShortID="990777622">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Weapon_Blaster_Tink_04" ID="{9273A9B4-5482-414C-9B2F-F04978AE1D27}">
+													<Language>SFX</Language>
+													<AudioFile>Weapon_Blaster_Tink_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="245789709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Weapon_Blaster_Tink_04" ID="{9273A9B4-5482-414C-9B2F-F04978AE1D27}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{1E9E5B95-7746-4B7C-92AC-DDD6958E3B58}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="23.6087689713322"/>
+												<Property Name="PanY" Type="Real64" Value="26.0397830018083"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<Sound Name="Blaster_Reload" ID="{23EBA435-8843-45BC-903D-BAC3A8446DBE}" ShortID="96321894">
+									<PropertyList>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Weapon_Blaster_Reload_Hiss" ID="{DA1910F5-809A-47F9-81BF-B4E29D344E9B}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Blaster_Reload_Hiss.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1053781214"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Weapon_Blaster_Reload_01" ID="{DEE92191-0AB8-4708-BD77-09DCEB6F5109}">
+											<Language>SFX</Language>
+											<AudioFile>Weapon_Blaster_Reload_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="984385279"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{79237030-117F-46F0-A0A5-CBF078869360}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="23"/>
+												<Property Name="PanY" Type="Real64" Value="26"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Weapon_Blaster_Reload_01" ID="{DEE92191-0AB8-4708-BD77-09DCEB6F5109}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Shotgun" ID="{C5445B7C-8CBE-4698-BA61-D0D3A9F583DB}" ShortID="666629755">

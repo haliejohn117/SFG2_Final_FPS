@@ -131,6 +131,12 @@ namespace Unity.FPS.Game
         [Tooltip("Wwise event played when this weapon is fired")]
         public AK.Wwise.Event WeaponFireEvent;
 
+        [Tooltip("Wwise event played when ammo is depleted")]
+        public AK.Wwise.Event ReloadEvent;
+
+        [Tooltip("How long to disable firing when ammo hits 0")]
+        public float ReloadDuration = 1.5f;
+
         [Tooltip("Wwise event played when this weapon is drawn")]
         public AK.Wwise.Event WeaponSwitchToEvent;
 
@@ -160,6 +166,9 @@ namespace Unity.FPS.Game
         public int GetCarriedPhysicalBullets() => m_CarriedPhysicalBullets;
         public int GetCurrentAmmo() => Mathf.FloorToInt(m_CurrentAmmo);
 
+        float m_ReloadTimer;
+        bool m_IsReloading;
+        bool m_ReloadEventPlayed;
         public bool IsReloading { get; private set; }
 
         const string k_AnimAttackParameter = "Attack";
@@ -249,6 +258,15 @@ namespace Unity.FPS.Game
                 MuzzleWorldVelocity = (WeaponMuzzle.position - m_LastMuzzlePosition) / Time.deltaTime;
                 m_LastMuzzlePosition = WeaponMuzzle.position;
             }
+
+            if (m_IsReloading)
+            {
+                m_ReloadTimer -= Time.deltaTime;
+                if (m_ReloadTimer <= 0f)
+                {
+                    m_IsReloading = false;
+                }
+            }
         }
 
         void UpdateAmmo()
@@ -275,6 +293,21 @@ namespace Unity.FPS.Game
             else
             {
                 CurrentAmmoRatio = m_CurrentAmmo / MaxAmmo;
+            }
+            // Play reload event once when ammo hits 0
+            bool isOutOfAmmo = CurrentAmmoRatio < 0.02;
+            if (isOutOfAmmo && !m_ReloadEventPlayed)
+            {
+                ReloadEvent?.Post(gameObject);
+                m_ReloadEventPlayed = true;
+
+                // Start reload lockout
+                m_IsReloading = true;
+                m_ReloadTimer = ReloadDuration;
+            }
+            else if (!isOutOfAmmo)
+            {
+                m_ReloadEventPlayed = false;
             }
         }
 
@@ -354,6 +387,9 @@ namespace Unity.FPS.Game
 
         public bool HandleShootInputs(bool inputDown, bool inputHeld, bool inputUp)
         {
+            if (m_IsReloading)
+                return false;
+
             m_WantsToShoot = inputDown || inputHeld;
             switch (ShootType)
             {

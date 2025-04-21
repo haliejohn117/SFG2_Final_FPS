@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c8ec1b148ff09f48aeb58bf1564c4f6f
     GuidInternal: 
-    m_lastTime: -8584564295259822392
+    m_lastTime: -8584564117276909707
     List:
     - name: Blaster
       guid: 341c9c36436c2e41b3b953e35cc5d9a8
@@ -266,6 +266,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Blaster_Reload_Hiss
+      guid: 3be3090fcfe1f8468fddbae1912502a7
+      id: 2521292096
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Reload_Hiss
+        ObjectType: 3
+        guid: 3be3090fcfe1f8468fddbae1912502a7
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload_Hiss
+      maxAttenuation: 0
+      maxDuration: 1.875
+      minDuration: 1.875
+    - name: Blaster_Reload_Tink
+      guid: 192b67bb6cf2a84e95c7810e83f7a62c
+      id: 1977076595
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_Reload_Tink
+        ObjectType: 3
+        guid: 192b67bb6cf2a84e95c7810e83f7a62c
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload_Tink
+      maxAttenuation: 0
+      maxDuration: 0.1249375
+      minDuration: 0.10570833
     - name: Blaster_Shot_Impact_VFX
       guid: f4f57527c2561f45b8a2c40eb4baddb9
       id: 1073526629
@@ -483,7 +529,7 @@ MonoBehaviour:
     m_lastTime: -8584569476669770613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000003000000040000000500000006000000070000000800000009000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e000000d0000000
+  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000800000009000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e000000d0000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

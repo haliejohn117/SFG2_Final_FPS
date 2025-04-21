@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
     "Language": "SFX",
-    "Hash": "{D4402AFC-8B9C-6AA8-EF47-A638F1218410}",
+    "Hash": "{3F599D48-7E42-5359-B501-29F6CD59260F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -80,6 +80,14 @@
       "CachePath": "19/{190A3BD8-9878-1FD6-4EE2-EDEF55E072B9}.wem"
      },
      {
+      "Id": "245789709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Blaster_Tink_04.wav",
+      "CachePath": "AC/{AC7EC389-FEAC-1D55-0D97-DEC4D9560D16}.wem"
+     },
+     {
       "Id": "253122031",
       "Language": "SFX",
       "Streaming": "false",
@@ -136,6 +144,14 @@
       "CachePath": "E6/{E6AD8B1C-1ED9-26D6-A293-6EBC37B5ED25}.wem"
      },
      {
+      "Id": "588372694",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Blaster_Tink_02.wav",
+      "CachePath": "24/{24D93644-4EE8-5F5C-84F6-60D99513AC8C}.wem"
+     },
+     {
       "Id": "625908631",
       "Language": "SFX",
       "Streaming": "false",
@@ -168,6 +184,22 @@
       "CachePath": "1B/{1B1351C1-917F-13A0-1301-B9A2BE3078F5}.wem"
      },
      {
+      "Id": "728096363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Blaster_Tink_03.wav",
+      "CachePath": "B1/{B1CA1018-8ECC-20C2-D25C-D181006AD5E1}.wem"
+     },
+     {
+      "Id": "888440822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Blaster_Tink_01.wav",
+      "CachePath": "D3/{D31B19BF-E0AB-78D0-66B4-6BF759A5AB42}.wem"
+     },
+     {
       "Id": "934764262",
       "Language": "SFX",
       "Streaming": "false",
@@ -182,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "shot2 Master-01.L.wav",
       "CachePath": "24/{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem"
+     },
+     {
+      "Id": "984385279",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Blaster_Reload_01.wav",
+      "CachePath": "95/{95342E95-B251-009B-3D58-7E7AFDAD788E}.wem"
      },
      {
       "Id": "1042404680",
@@ -286,6 +326,43 @@
       ]
      },
      {
+      "Id": "2521292096",
+      "Name": "Blaster_Reload_Hiss",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload_Hiss",
+      "GUID": "{0F09E33B-E1CF-46F8-8FDD-BAE1912502A7}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.875",
+      "DurationMax": "1.875",
+      "MediaRefs": [
+       {
+        "Id": "984385279"
+       }
+      ]
+     },
+     {
+      "Id": "1977076595",
+      "Name": "Blaster_Reload_Tink",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload_Tink",
+      "GUID": "{BB672B19-F26C-4EA8-95C7-810E83F7A62C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.10570833",
+      "DurationMax": "0.1249375",
+      "MediaRefs": [
+       {
+        "Id": "245789709"
+       },
+       {
+        "Id": "588372694"
+       },
+       {
+        "Id": "728096363"
+       },
+       {
+        "Id": "888440822"
+       }
+      ]
+     },
+     {
       "Id": "1073526629",
       "Name": "Blaster_Shot_Impact_VFX",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Shot_Impact_VFX",
@@ -383,6 +460,6 @@
     ]
    }
   ],
-  "FileHash": "{D48B5BB1-E6C5-7C15-E148-6B53A377F1AA}"
+  "FileHash": "{D76278D0-78A3-1F6D-5F9E-F3AA9DF46042}"
  }
 }

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1819d2211ef774d7f9f63e1d14ffda24, type: 3}
+  m_Name: 0F09E33B-E1CF-46F8-8FDD-BAE1912502A7
+  m_EditorClassIdentifier: 
+  objectName: Blaster_Reload_Hiss
+  id: 2521292096
+  guid: 0F09E33B-E1CF-46F8-8FDD-BAE1912502A7
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0
