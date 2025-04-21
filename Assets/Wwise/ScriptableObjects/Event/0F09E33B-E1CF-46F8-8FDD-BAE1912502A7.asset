@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1819d2211ef774d7f9f63e1d14ffda24, type: 3}
   m_Name: 0F09E33B-E1CF-46F8-8FDD-BAE1912502A7
   m_EditorClassIdentifier: 
-  objectName: Blaster_Reload_Hiss
-  id: 2521292096
+  objectName: Blaster_Reload
+  id: 1245297744
   guid: 0F09E33B-E1CF-46F8-8FDD-BAE1912502A7
   IsInUserDefinedSoundBank: 1
   IsAutoBankLoaded: 0

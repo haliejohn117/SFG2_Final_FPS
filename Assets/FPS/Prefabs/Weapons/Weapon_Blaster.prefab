@@ -233,7 +233,8 @@ MonoBehaviour:
   WeaponSwitchToEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: fc4e9419a1481f0478bca4b8cfa99e2b,
+      type: 2}
 --- !u!114 &8745372878802205896
 MonoBehaviour:
   m_ObjectHideFlags: 0

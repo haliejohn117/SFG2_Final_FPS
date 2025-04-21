@@ -111,15 +111,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c54486e25f596f64dbd70c7e84853bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 77f4e0be80b70184b814261d17ab04e8,
+      type: 2}
   PlayerStateCombat:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 63765f22e7eaaf14f974d120268aeb06,
+      type: 2}
   PlayerStateExploration:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 34a8a14e765ba294aba4432f8cc7090f,
+      type: 2}

@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1229948536	Environment			\Default Work Unit\Environment	
+
+State	ID	Name	State Group			Notes
+	2582085496	Exploration	Environment			
+	2764240573	Combat	Environment			
+	4174463524	Danger	Environment			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

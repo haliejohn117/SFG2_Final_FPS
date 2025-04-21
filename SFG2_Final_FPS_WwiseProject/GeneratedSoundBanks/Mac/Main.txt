@@ -1,15 +1,32 @@
 Event	ID	Name			Wwise Object Path	Notes
-	236527712	Blaster_Cyllinder_2			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_2	
-	236527713	Blaster_Cyllinder_3			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_3	
-	236527715	Blaster_Cyllinder_1			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_1	
-	236527718	Blaster_Cyllinder_4			\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_4	
+	252689147	Shotgun_SwitchTo			\Default Work Unit\Weapons\Shotgun\Shotgun_SwitchTo	
+	290453740	HoverBot_Hurt			\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt	
+	313114590	Weapon_SwitchToGeneric			\Default Work Unit\Weapons\Weapon_SwitchToGeneric	
+	395970340	Item_PickUp_Health			\Default Work Unit\Items\Item_PickUp_Health	
+	604722539	Weapon_PickUpGeneric			\Default Work Unit\Weapons\Weapon_PickUpGeneric	
 	639453935	Blaster_Fire			\Default Work Unit\Weapons\Blaster\Blaster_Fire	
+	996863484	Blaster_SwitchTo			\Default Work Unit\Weapons\Blaster\Blaster_SwitchTo	
 	1073526629	Blaster_Shot_Impact_VFX			\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX	
+	1245297744	Blaster_Reload			\Default Work Unit\Weapons\Blaster\Blaster_Reload	
+	1305133589	Player_Jump			\Default Work Unit\Player\Player_Jump	
 	1493205860	HoverBot_Alerted			\Default Work Unit\Enemies\HoverBot\HoverBot_Alerted	
-	1977076595	Blaster_Reload_Tink			\Default Work Unit\Weapons\Blaster\Blaster_Reload_Tink	
 	2513698745	Placeholder_Event			\Default Work Unit\Placeholder_Event	
-	2521292096	Blaster_Reload_Hiss			\Default Work Unit\Weapons\Blaster\Blaster_Reload_Hiss	
+	3083087645	Player_Death			\Default Work Unit\Player\Player_Death	
+	3185060020	HoverBot_Shoot			\Default Work Unit\Enemies\HoverBot\HoverBot_Shoot	
+	3479070331	Shotgun_Reload			\Default Work Unit\Weapons\Shotgun\Shotgun_Reload	
+	3629196698	Player_Land			\Default Work Unit\Player\Player_Land	
 	3982195600	Shotgun_Fire			\Default Work Unit\Weapons\Shotgun\Shotgun_Fire	
+	3991942870	Music			\Default Work Unit\Music	
+	4012500019	HoverBot_Destroy			\Default Work Unit\Enemies\HoverBot\HoverBot_Destroy	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1229948536	Environment			\Default Work Unit\Environment	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Environment			
+	2582085496	Exploration	Environment			
+	2764240573	Combat	Environment			
+	4174463524	Danger	Environment			
 
 Effect plug-ins	ID	Name	Type				Notes
 	3657550167	New_Parametric_EQ	Wwise Parametric EQ			
@@ -17,29 +34,44 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	19699085	Blaster Impact 2	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\EB\{EBC81E28-F50F-9D1E-9A09-4040EEA1C848}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 2		30624
 	33855622	Blaster Impact 6	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\6F\{6F12D6F1-7984-907B-7DAF-75DC58F9BA02}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 6		30624
+	92785152	Item_Pickup_Health	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\AB\{ABF050FF-D3B9-01CE-B56A-078107E3BDF4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Item_Pickup_Health		128096
+	98670622	Weapon_PickupGeneric	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\49\{49F9DD4E-4717-C12E-7F7D-E25905F9D658}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Weapon_PickupGeneric		36718
 	104706583	Blaster_Shot_4	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\70\{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_4		48096
-	118425554	Cylinder 4	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\AE\{AE088CB4-8747-73AC-07B9-AACCF36618EE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 4		60000
 	151262928	PlaceHolder	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\86\{86012BFF-D72C-C7D9-3149-77F9C2843480}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlaceHolder		70356
-	165605077	Cylinder 2	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B5\{B5CC1DA9-D0A6-086D-F308-F5A8765C359A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 2		60000
 	192293903	Weapon_Shotgun_Fire_03	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\5B\{5B434572-E5A9-98C6-82FE-04AF61B06BD4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Fire\Weapon_Shotgun_Fire_03		142484
 	232753411	Blaster Impact 5	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\19\{190A3BD8-9878-1FD6-4EE2-EDEF55E072B9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 5		30624
-	245789709	Weapon_Blaster_Tink_04	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\AC\{AC7EC389-FEAC-1D55-0D97-DEC4D9560D16}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Tink\Weapon_Blaster_Tink_04		12090
 	253122031	Blaster Impact 7	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\12\{12DA78CB-B0D4-1F65-38C5-5E7BF36CA57A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 7		30624
 	280750469	Blaster Impact 1	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\54\{540BA80D-EA9D-FDCD-94F7-9FE8C001898D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 1		30624
 	307676913	Weapon_Shotgun_Fire_02	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\FF\{FF157DAD-AF9B-6734-3473-9F1340AE542E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Fire\Weapon_Shotgun_Fire_02		221084
+	337500227	Player_Land	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\BC\{BC679848-E957-7B2C-E42C-CAB3D35F3E49}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Land		24510
+	352011604	Player_Jump	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\AD\{AD15700C-F47D-2125-779F-D0E8DDA917DD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Jump		37702
+	376968590	Enemy_HoverBot_Hurt_03	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B8\{B887DA69-A04F-8919-FEAE-9B8F8AF770B7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt\Enemy_HoverBot_Hurt_03		104220
+	403701920	Shotgun_SwitchTo	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\23\{23A3A861-12D9-73AC-82FA-5231AA931253}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_SwitchTo		117344
 	415476632	Blaster Impact 4	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B4\{B462783E-81FA-9C43-F0A3-11C4F4D1B67F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 4		30624
+	421255041	Blaster_SwitchTo	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\6E\{6E380482-45E1-EA54-B9AA-1B51444893B0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_SwitchTo		120096
 	443700259	Blaster_Shot_1	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\09\{09F8FB24-17E2-3128-B8AD-0A347A7B0314}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_1		48096
+	485939665	Enemy_HoverBot_Shoot_01	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\8B\{8B3E6F75-95C0-7B9A-2234-A55ADF0EE591}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Shoot\Enemy_HoverBot_Shoot_01		49296
 	511855533	Blster Impact 3	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\BD\{BD40014A-7972-8667-8088-39CB57C91AAD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blster Impact 3		30624
 	537180805	HoverBot_Alerted	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\E6\{E6AD8B1C-1ED9-26D6-A293-6EBC37B5ED25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Alerted		176096
-	588372694	Weapon_Blaster_Tink_02	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\24\{24D93644-4EE8-5F5C-84F6-60D99513AC8C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Tink\Weapon_Blaster_Tink_02		12068
+	610871649	Enemy_HoverBot_Hurt_02	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\28\{2804F0CD-0FC9-05AA-D585-2A7304410842}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt\Enemy_HoverBot_Hurt_02		111064
 	625908631	Blaster_Shot_3	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\D3\{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_3		48096
+	626269760	HoverBot_Destroy	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\FB\{FB22B606-1D37-440C-BB92-96D9D7C41C99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Destroy		209244
+	633689311	Enemy_HoverBot_Hurt_04	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\5E\{5EF77656-E3A6-A874-9F0A-9A08D7B26524}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt\Enemy_HoverBot_Hurt_04		95672
 	657763999	Weapon_Shotgun_Fire_04	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\64\{6482BC7E-CB86-C199-D017-D579395AFE7D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Fire\Weapon_Shotgun_Fire_04		132684
-	679497602	Cylinder 1	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\C8\{C860EE68-84B7-5263-481E-DA22A76C7854}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 1		60000
 	679832758	Blaster Impact 8	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\1B\{1B1351C1-917F-13A0-1301-B9A2BE3078F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 8		30624
-	728096363	Weapon_Blaster_Tink_03	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B1\{B1CA1018-8ECC-20C2-D25C-D181006AD5E1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Tink\Weapon_Blaster_Tink_03		10244
-	888440822	Weapon_Blaster_Tink_01	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\D3\{D31B19BF-E0AB-78D0-66B4-6BF759A5AB42}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Tink\Weapon_Blaster_Tink_01		11224
-	934764262	Cylinder 3	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\40\{40401D29-85AC-0C3B-D35F-A06A8011E247}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload_Cylinders\Cylinder 3		60000
+	683451512	Player_Death	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\61\{617269B6-1F6F-1710-CC0D-A0F6C966DEC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Death		308186
+	830507302	Enemy_HoverBot_Hurt_01	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\89\{89801132-B46E-4561-DC2C-BD3183170351}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt\Enemy_HoverBot_Hurt_01		84996
+	870125046	Weapon_SwitchToGeneric	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\C0\{C098D3AE-89D6-0E22-E23B-0C47CC402491}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Weapon_SwitchToGeneric		56096
 	944077970	Blaster_Shot_2	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\24\{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_2		48096
+	972077241	Enemy_HoverBot_Shoot_02	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\0C\{0CF0932E-B4F7-A41E-9167-850A3D97B2A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Shoot\Enemy_HoverBot_Shoot_02		49936
 	984385279	Blaster_Reload	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\95\{95342E95-B251-009B-3D58-7E7AFDAD788E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Reload		360096
+	1012393079	Enemy_HoverBot_Shoot_03	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B7\{B76D43FC-8250-1ADE-2869-A32D9E6BDB47}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Shoot\Enemy_HoverBot_Shoot_03		48992
 	1042404680	Weapon_Shotgun_Fire_01	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\24\{24B4AE04-02ED-2B24-4CCF-8CD06D3E1E13}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Fire\Weapon_Shotgun_Fire_01		141932
+	1053781214	Shotgun_Reload	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\DF\{DF911508-BE10-5DC6-F347-487C32C15CAA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Reload		170912
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	269338044	Environment_Danger	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\29\{296E736C-0BFA-F395-15E1-07B8EFCD0D8C}.wem	269338044.wem	\Actor-Mixer Hierarchy\Default Work Unit\Environment_Danger	
+	305646494	Amb_Environment_Normal_03	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\25\{250CD2B3-DB51-1CE4-CBB6-E176EC705EE2}.wem	305646494.wem	\Actor-Mixer Hierarchy\Default Work Unit\Environment_Normal\Amb_Environment_Normal_03	
+	863949858	Amb_Environment_Normal_01	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\B3\{B3946D25-4FB5-4BB5-ED9B-DF1958DBDDF4}.wem	863949858.wem	\Actor-Mixer Hierarchy\Default Work Unit\Environment_Normal\Amb_Environment_Normal_01	
+	902175756	Amb_Environment_Normal_02	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\E9\{E9EFA886-EB09-48D9-C6AE-7C819E8DC841}.wem	902175756.wem	\Actor-Mixer Hierarchy\Default Work Unit\Environment_Normal\Amb_Environment_Normal_02	
 

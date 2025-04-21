@@ -18,54 +18,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Folder Name="Blaster_Reload" ID="{82A54454-37B6-4897-A8D9-9276194C95D5}" ShortID="277434286">
-									<ChildrenList>
-										<Event Name="Blaster_Cyllinder_1" ID="{9AC63595-FD93-48B5-9D14-AE8BBABDE2E3}">
-											<ChildrenList>
-												<Action Name="" ID="{5AB3B41D-5143-4B12-B191-DFF5F620A974}" ShortID="304292342">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Cylinder 1" ID="{B94F60B0-9663-41DE-B67D-7D0605393887}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Blaster_Cyllinder_2" ID="{A4D3062B-41B0-49AD-A12A-ADC2F2CCC328}">
-											<ChildrenList>
-												<Action Name="" ID="{54F4125D-3812-4E89-8705-7DC3612CB60C}" ShortID="815885450">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Cylinder 2" ID="{2A9387F2-FBF7-4572-A9BA-B2CDFD606A82}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Blaster_Cyllinder_3" ID="{6797889A-217E-4DA2-A1E4-2FCBD7D6B8FF}">
-											<ChildrenList>
-												<Action Name="" ID="{EBA0023F-8142-4E7E-B4E5-8DB47BC5C237}" ShortID="522990818">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Cylinder 3" ID="{08B64F2F-947C-4D52-8184-58B4880A0C0E}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Blaster_Cyllinder_4" ID="{C60655F7-0A3A-4AF8-890B-8E8D8D2BE285}">
-											<ChildrenList>
-												<Action Name="" ID="{E3099B77-6F8E-4C77-B09E-F9529F4180CF}" ShortID="390576285">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Cylinder 4" ID="{27FDDBC2-F4BE-4C23-B806-812C36931B6E}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-									</ChildrenList>
-								</Folder>
 								<Event Name="Blaster_Shot_Impact_VFX" ID="{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}">
 									<ChildrenList>
 										<Action Name="" ID="{3CF04FA4-F6E1-4C87-9B66-93907E5B5F08}" ShortID="23153401">
@@ -77,23 +29,23 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Blaster_Reload_Tink" ID="{BB672B19-F26C-4EA8-95C7-810E83F7A62C}">
-									<ChildrenList>
-										<Action Name="" ID="{61AC8609-DCD6-487D-A6E0-2EAF333D38CC}" ShortID="666911949">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Blaster_Reload_Tink" ID="{E777F007-6B86-4CD9-845F-58E08E7A67B5}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Blaster_Reload_Hiss" ID="{0F09E33B-E1CF-46F8-8FDD-BAE1912502A7}">
+								<Event Name="Blaster_Reload" ID="{0F09E33B-E1CF-46F8-8FDD-BAE1912502A7}">
 									<ChildrenList>
 										<Action Name="" ID="{AF9D6436-8C90-494D-AC64-8AB5FC22481D}" ShortID="638090722">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Blaster_Reload" ID="{23EBA435-8843-45BC-903D-BAC3A8446DBE}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Blaster_SwitchTo" ID="{9369A691-B5F2-48F7-AAFE-06958FC06BFA}">
+									<ChildrenList>
+										<Action Name="" ID="{935DB202-9755-4BCA-A673-0939CBA7C773}" ShortID="684009818">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Blaster_SwitchTo" ID="{F20E3645-4D2D-426D-832F-E8AD77A436FF}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -114,8 +66,52 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Shotgun_SwitchTo" ID="{54798250-4388-407D-B30B-A96F582EB660}">
+									<ChildrenList>
+										<Action Name="" ID="{15BCFBE3-7151-432E-BED9-F58D573C2E88}" ShortID="353185399">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shotgun_SwitchTo" ID="{FEA4DEF5-5CC8-469C-A0F8-E8444DFB589B}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Shotgun_Reload" ID="{EDD77520-D566-4D0F-9150-16682005C82D}">
+									<ChildrenList>
+										<Action Name="" ID="{940EB77A-F39B-4EEA-B27E-0012A1E2DD6C}" ShortID="30532452">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shotgun_Reload" ID="{02D42BAD-DAB5-4FE4-BE7B-5B8D8842EB72}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Weapon_PickUpGeneric" ID="{CDE2E4C6-AE51-468B-A750-8C19B86A0739}">
+							<ChildrenList>
+								<Action Name="" ID="{A5FB0AC7-F6AA-4DCD-99EA-FD1FD1E21BF0}" ShortID="1038015623">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Weapon_PickupGeneric" ID="{6BD8B6FC-62FB-4485-806A-86CF9C105E66}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Weapon_SwitchToGeneric" ID="{51068CCE-2A47-4C3B-8F30-DE5925DC0DBC}">
+							<ChildrenList>
+								<Action Name="" ID="{937BF4CA-FB5C-4408-97EF-F537E2ACD2A3}" ShortID="234454511">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Weapon_SwitchToGeneric" ID="{CB809FE6-476B-4732-813D-862C07168821}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Placeholder_Event" ID="{CDCD0E36-C02E-4021-A3DF-6722C152716D}">
@@ -144,10 +140,113 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="HoverBot_Shoot" ID="{03395DC0-F305-4E68-A63D-7423ABF6FAD2}">
+									<ChildrenList>
+										<Action Name="" ID="{053335EE-7F7C-4633-BB37-B00297B3AD04}" ShortID="449234067">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HoverBot_Shoot" ID="{E433851F-7906-40FA-95A7-1465CD2D74D0}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="HoverBot_Hurt" ID="{5C19E30A-09E4-413E-B7AD-BFFC618D1EAE}">
+									<ChildrenList>
+										<Action Name="" ID="{9A3AF8BE-DB4D-47E5-BA8E-D5A8EE5BB995}" ShortID="826329839">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HoverBot_Hurt" ID="{CBD822ED-4E58-44F7-8924-67FBA407206A}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="HoverBot_Destroy" ID="{F815070F-0381-456E-9ED7-5ACB748C45B7}">
+									<ChildrenList>
+										<Action Name="" ID="{EB1EA91E-3560-4693-A271-AC9CE7B85E01}" ShortID="189999600">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="HoverBot_Destroy" ID="{5D519117-F746-4A33-8698-128DEA3F2AB2}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Items" ID="{C6FC6CA2-DBE2-4032-8602-FB585C27E41C}" ShortID="997962811">
+					<ChildrenList>
+						<Event Name="Item_PickUp_Health" ID="{F7C7DFD6-EEF3-46E7-A631-2D8EDF897CA2}">
+							<ChildrenList>
+								<Action Name="" ID="{1E767143-96F7-425F-A557-41D39149F0FB}" ShortID="127405474">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Item_Pickup_Health" ID="{BF866855-AA44-4DA0-A645-8CA8FA8C842D}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{14083B95-465D-4EB0-B4E4-107B78B57A6C}" ShortID="522841013">
+					<ChildrenList>
+						<Event Name="Player_Jump" ID="{CCF284DF-74BD-48BF-BA3F-314BD9CF22FA}">
+							<ChildrenList>
+								<Action Name="" ID="{4F0CB095-D641-4A69-8A5C-3406F6F56128}" ShortID="1064415509">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Jump" ID="{A3146D78-8D8C-40AC-867C-78D2AD927E4D}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Land" ID="{37BDB982-69EE-4CD1-8C28-AEB5B01D6553}">
+							<ChildrenList>
+								<Action Name="" ID="{BBB80991-61A1-466B-B47E-48F877D066F1}" ShortID="595018819">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Land" ID="{4402878F-AEEC-4F67-84D0-CE3D9044B431}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Death" ID="{AF146654-6A9C-4A8D-91D8-310493D190AD}">
+							<ChildrenList>
+								<Action Name="" ID="{119F0A37-77A0-4939-8B36-45B8FE02820B}" ShortID="251360984">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Death" ID="{C703FAC9-4736-4CD7-A52B-C8846D0E059D}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Music" ID="{DBC45000-9E41-4778-AD8F-6F931AEB6040}">
+					<ChildrenList>
+						<Action Name="" ID="{1A745D07-0425-47A4-8E2E-0B49EDDF1311}" ShortID="329272400">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Environment_Normal" ID="{3794E85A-84F1-4622-A791-387505C4DF1C}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FE7E724D-1872-4246-8260-4A972C438D56}" ShortID="162028433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Environment_Danger" ID="{3DE9B886-F90D-4F96-B939-033F495BD8B2}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

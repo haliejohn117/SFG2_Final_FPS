@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 78962d00c1df6e4f903d112e5e1f7683
     GuidInternal: 
-    m_lastTime: -8584569476459431793
+    m_lastTime: -8584564013435978104
     List:
     - name: Main
       guid: 64c32893f30a2245b4a736b8ccc0b4f8
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c8ec1b148ff09f48aeb58bf1564c4f6f
     GuidInternal: 
-    m_lastTime: -8584564117276909707
+    m_lastTime: -8584563939481273947
     List:
     - name: Blaster
       guid: 341c9c36436c2e41b3b953e35cc5d9a8
@@ -116,110 +116,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Blaster_Cyllinder_1
-      guid: 9535c69a93fdb5489d14ae8bbabde2e3
-      id: 236527715
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: 7575ae15aa4a9e47be07aba86a3e35e2
-      - ElementName: Blaster
-        ObjectType: 4
-        guid: 341c9c36436c2e41b3b953e35cc5d9a8
-      - ElementName: Blaster_Reload
-        ObjectType: 4
-        guid: 5444a582b6379748a8d99276194c95d5
-      - ElementName: Blaster_Cyllinder_1
-        ObjectType: 3
-        guid: 9535c69a93fdb5489d14ae8bbabde2e3
-      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_1
-      maxAttenuation: 0
-      maxDuration: 0.624
-      minDuration: 0.624
-    - name: Blaster_Cyllinder_2
-      guid: 2b06d3a4b041ad49a12aadc2f2ccc328
-      id: 236527712
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: 7575ae15aa4a9e47be07aba86a3e35e2
-      - ElementName: Blaster
-        ObjectType: 4
-        guid: 341c9c36436c2e41b3b953e35cc5d9a8
-      - ElementName: Blaster_Reload
-        ObjectType: 4
-        guid: 5444a582b6379748a8d99276194c95d5
-      - ElementName: Blaster_Cyllinder_2
-        ObjectType: 3
-        guid: 2b06d3a4b041ad49a12aadc2f2ccc328
-      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_2
-      maxAttenuation: 0
-      maxDuration: 0.624
-      minDuration: 0.624
-    - name: Blaster_Cyllinder_3
-      guid: 9a8897677e21a24da1e42fcbd7d6b8ff
-      id: 236527713
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: 7575ae15aa4a9e47be07aba86a3e35e2
-      - ElementName: Blaster
-        ObjectType: 4
-        guid: 341c9c36436c2e41b3b953e35cc5d9a8
-      - ElementName: Blaster_Reload
-        ObjectType: 4
-        guid: 5444a582b6379748a8d99276194c95d5
-      - ElementName: Blaster_Cyllinder_3
-        ObjectType: 3
-        guid: 9a8897677e21a24da1e42fcbd7d6b8ff
-      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_3
-      maxAttenuation: 0
-      maxDuration: 0.624
-      minDuration: 0.624
-    - name: Blaster_Cyllinder_4
-      guid: f75506c63a0af84a890b8e8d8d2be285
-      id: 236527718
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: 7575ae15aa4a9e47be07aba86a3e35e2
-      - ElementName: Blaster
-        ObjectType: 4
-        guid: 341c9c36436c2e41b3b953e35cc5d9a8
-      - ElementName: Blaster_Reload
-        ObjectType: 4
-        guid: 5444a582b6379748a8d99276194c95d5
-      - ElementName: Blaster_Cyllinder_4
-        ObjectType: 3
-        guid: f75506c63a0af84a890b8e8d8d2be285
-      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload\Blaster_Cyllinder_4
-      maxAttenuation: 0
-      maxDuration: 0.624
-      minDuration: 0.624
     - name: Blaster_Fire
       guid: 9a7069d0a02a2d4ea41e5253325f16c3
       id: 639453935
@@ -240,11 +136,11 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9a7069d0a02a2d4ea41e5253325f16c3
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Fire
-      maxAttenuation: 100
+      maxAttenuation: 0
       maxDuration: 0.60325223
       minDuration: 0.4144203
     - name: Blaster_Reload
-      guid: 5444a582b6379748a8d99276194c95d5
+      guid: 3be3090fcfe1f8468fddbae1912502a7
       id: 1245297744
       PathAndIcons:
       - ElementName: Events
@@ -260,58 +156,12 @@ MonoBehaviour:
         ObjectType: 4
         guid: 341c9c36436c2e41b3b953e35cc5d9a8
       - ElementName: Blaster_Reload
-        ObjectType: 4
-        guid: 5444a582b6379748a8d99276194c95d5
-      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Blaster_Reload_Hiss
-      guid: 3be3090fcfe1f8468fddbae1912502a7
-      id: 2521292096
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: 7575ae15aa4a9e47be07aba86a3e35e2
-      - ElementName: Blaster
-        ObjectType: 4
-        guid: 341c9c36436c2e41b3b953e35cc5d9a8
-      - ElementName: Blaster_Reload_Hiss
         ObjectType: 3
         guid: 3be3090fcfe1f8468fddbae1912502a7
-      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload_Hiss
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload
       maxAttenuation: 0
       maxDuration: 1.875
       minDuration: 1.875
-    - name: Blaster_Reload_Tink
-      guid: 192b67bb6cf2a84e95c7810e83f7a62c
-      id: 1977076595
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
-      - ElementName: Weapons
-        ObjectType: 4
-        guid: 7575ae15aa4a9e47be07aba86a3e35e2
-      - ElementName: Blaster
-        ObjectType: 4
-        guid: 341c9c36436c2e41b3b953e35cc5d9a8
-      - ElementName: Blaster_Reload_Tink
-        ObjectType: 3
-        guid: 192b67bb6cf2a84e95c7810e83f7a62c
-      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Reload_Tink
-      maxAttenuation: 0
-      maxDuration: 0.1249375
-      minDuration: 0.10570833
     - name: Blaster_Shot_Impact_VFX
       guid: f4f57527c2561f45b8a2c40eb4baddb9
       id: 1073526629
@@ -332,9 +182,32 @@ MonoBehaviour:
         ObjectType: 3
         guid: f4f57527c2561f45b8a2c40eb4baddb9
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX
-      maxAttenuation: 20
+      maxAttenuation: 30
       maxDuration: 0.36213475
       minDuration: 0.28330576
+    - name: Blaster_SwitchTo
+      guid: 91a66993f2b5f748aafe06958fc06bfa
+      id: 996863484
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Blaster
+        ObjectType: 4
+        guid: 341c9c36436c2e41b3b953e35cc5d9a8
+      - ElementName: Blaster_SwitchTo
+        ObjectType: 3
+        guid: 91a66993f2b5f748aafe06958fc06bfa
+      Path: Events\Default Work Unit\Weapons\Blaster\Blaster_SwitchTo
+      maxAttenuation: 0
+      maxDuration: 1.25
+      minDuration: 1.25
     - name: Enemies
       guid: 37aba4876abeea4d9cd0a4c3b3a89036
       id: 2242381963
@@ -392,9 +265,132 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4fe924e9d1aa8340bb7fd210221c260a
       Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Alerted
-      maxAttenuation: 20
+      maxAttenuation: 30
       maxDuration: 0.9166667
       minDuration: 0.9166667
+    - name: HoverBot_Destroy
+      guid: 0f0715f881036e459ed75acb748c45b7
+      id: 4012500019
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: HoverBot
+        ObjectType: 4
+        guid: 4acc4e1cb65ef44e87f5f02ed66464cd
+      - ElementName: HoverBot_Destroy
+        ObjectType: 3
+        guid: 0f0715f881036e459ed75acb748c45b7
+      Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Destroy
+      maxAttenuation: 30
+      maxDuration: 1.0893207
+      minDuration: 1.0893207
+    - name: HoverBot_Hurt
+      guid: 0ae3195ce4093e41b7adbffc618d1eae
+      id: 290453740
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: HoverBot
+        ObjectType: 4
+        guid: 4acc4e1cb65ef44e87f5f02ed66464cd
+      - ElementName: HoverBot_Hurt
+        ObjectType: 3
+        guid: 0ae3195ce4093e41b7adbffc618d1eae
+      Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt
+      maxAttenuation: 30
+      maxDuration: 0.5779659
+      minDuration: 0.4421822
+    - name: HoverBot_Shoot
+      guid: c05d390305f3684ea63d7423abf6fad2
+      id: 3185060020
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: HoverBot
+        ObjectType: 4
+        guid: 4acc4e1cb65ef44e87f5f02ed66464cd
+      - ElementName: HoverBot_Shoot
+        ObjectType: 3
+        guid: c05d390305f3684ea63d7423abf6fad2
+      Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Shoot
+      maxAttenuation: 30
+      maxDuration: 0.25957647
+      minDuration: 0.25466588
+    - name: Item_PickUp_Health
+      guid: d6dfc7f7f3eee746a6312d8edf897ca2
+      id: 395970340
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Items
+        ObjectType: 4
+        guid: a26cfcc6e2db32408602fb585c27e41c
+      - ElementName: Item_PickUp_Health
+        ObjectType: 3
+        guid: d6dfc7f7f3eee746a6312d8edf897ca2
+      Path: Events\Default Work Unit\Items\Item_PickUp_Health
+      maxAttenuation: 0
+      maxDuration: 0.6666667
+      minDuration: 0.6666667
+    - name: Items
+      guid: a26cfcc6e2db32408602fb585c27e41c
+      id: 2151963051
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Items
+        ObjectType: 4
+        guid: a26cfcc6e2db32408602fb585c27e41c
+      Path: Events\Default Work Unit\Items
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 0050c4db419e7847ad8f6f931aeb6040
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Music
+        ObjectType: 3
+        guid: 0050c4db419e7847ad8f6f931aeb6040
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Placeholder_Event
       guid: 360ecdcd2ec02140a3df6722c152716d
       id: 2513698745
@@ -412,6 +408,83 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.3659352
       minDuration: 0.3659352
+    - name: Player
+      guid: 953b08145d46b04eb4e4107b78b57a6c
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Player
+        ObjectType: 4
+        guid: 953b08145d46b04eb4e4107b78b57a6c
+      Path: Events\Default Work Unit\Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Death
+      guid: 546614af9c6a8d4a91d8310493d190ad
+      id: 3083087645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Player
+        ObjectType: 4
+        guid: 953b08145d46b04eb4e4107b78b57a6c
+      - ElementName: Player_Death
+        ObjectType: 3
+        guid: 546614af9c6a8d4a91d8310493d190ad
+      Path: Events\Default Work Unit\Player\Player_Death
+      maxAttenuation: 0
+      maxDuration: 3.2092795
+      minDuration: 3.2092795
+    - name: Player_Jump
+      guid: df84f2ccbd74bf48ba3f314bd9cf22fa
+      id: 1305133589
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Player
+        ObjectType: 4
+        guid: 953b08145d46b04eb4e4107b78b57a6c
+      - ElementName: Player_Jump
+        ObjectType: 3
+        guid: df84f2ccbd74bf48ba3f314bd9cf22fa
+      Path: Events\Default Work Unit\Player\Player_Jump
+      maxAttenuation: 0
+      maxDuration: 0.40321726
+      minDuration: 0.38058642
+    - name: Player_Land
+      guid: 82b9bd37ee69d14c8c28aeb5b01d6553
+      id: 3629196698
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Player
+        ObjectType: 4
+        guid: 953b08145d46b04eb4e4107b78b57a6c
+      - ElementName: Player_Land
+        ObjectType: 3
+        guid: 82b9bd37ee69d14c8c28aeb5b01d6553
+      Path: Events\Default Work Unit\Player\Player_Land
+      maxAttenuation: 0
+      maxDuration: 0.26175874
+      minDuration: 0.24706735
     - name: Shotgun
       guid: d8308e04070758439cb7745c594d059f
       id: 51683977
@@ -455,6 +528,92 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.3019583
       minDuration: 1.381125
+    - name: Shotgun_Reload
+      guid: 2075d7ed66d50f4d915016682005c82d
+      id: 3479070331
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Shotgun
+        ObjectType: 4
+        guid: d8308e04070758439cb7745c594d059f
+      - ElementName: Shotgun_Reload
+        ObjectType: 3
+        guid: 2075d7ed66d50f4d915016682005c82d
+      Path: Events\Default Work Unit\Weapons\Shotgun\Shotgun_Reload
+      maxAttenuation: 0
+      maxDuration: 2.7793334
+      minDuration: 2.7793334
+    - name: Shotgun_SwitchTo
+      guid: 5082795488437d40b30ba96f582eb660
+      id: 252689147
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Shotgun
+        ObjectType: 4
+        guid: d8308e04070758439cb7745c594d059f
+      - ElementName: Shotgun_SwitchTo
+        ObjectType: 3
+        guid: 5082795488437d40b30ba96f582eb660
+      Path: Events\Default Work Unit\Weapons\Shotgun\Shotgun_SwitchTo
+      maxAttenuation: 0
+      maxDuration: 1.2213334
+      minDuration: 1.2213334
+    - name: Weapon_PickUpGeneric
+      guid: c6e4e2cd51ae8b46a7508c19b86a0739
+      id: 604722539
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Weapon_PickUpGeneric
+        ObjectType: 3
+        guid: c6e4e2cd51ae8b46a7508c19b86a0739
+      Path: Events\Default Work Unit\Weapons\Weapon_PickUpGeneric
+      maxAttenuation: 0
+      maxDuration: 0.39264375
+      minDuration: 0.37060633
+    - name: Weapon_SwitchToGeneric
+      guid: ce8c0651472a3b4c8f30de5925dc0dbc
+      id: 313114590
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 7575ae15aa4a9e47be07aba86a3e35e2
+      - ElementName: Weapon_SwitchToGeneric
+        ObjectType: 3
+        guid: ce8c0651472a3b4c8f30de5925dc0dbc
+      Path: Events\Default Work Unit\Weapons\Weapon_SwitchToGeneric
+      maxAttenuation: 0
+      maxDuration: 0.29166666
+      minDuration: 0.29166666
     - name: Weapons
       guid: 7575ae15aa4a9e47be07aba86a3e35e2
       id: 1467963052
@@ -498,8 +657,90 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 375963f2d715fd40b3c742ee9133ca60
     GuidInternal: 
-    m_lastTime: -8584569476669785677
-    List: []
+    m_lastTime: -8584563921455813945
+    List:
+    - name: Environment
+      guid: ad4766eb201cb44d9023525add0fdffc
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 375963f2d715fd40b3c742ee9133ca60
+      - ElementName: Environment
+        ObjectType: 9
+        guid: ad4766eb201cb44d9023525add0fdffc
+      Path: States\Default Work Unit\Environment
+      values:
+      - name: Combat
+        guid: 83cb6e4361ff1b4b811d3fdc7e80f4cb
+        id: 2764240573
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 375963f2d715fd40b3c742ee9133ca60
+        - ElementName: Environment
+          ObjectType: 9
+          guid: ad4766eb201cb44d9023525add0fdffc
+        - ElementName: Combat
+          ObjectType: 8
+          guid: 83cb6e4361ff1b4b811d3fdc7e80f4cb
+      - name: Danger
+        guid: e238b5487f791a4bab8a06c90a8473cf
+        id: 4174463524
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 375963f2d715fd40b3c742ee9133ca60
+        - ElementName: Environment
+          ObjectType: 9
+          guid: ad4766eb201cb44d9023525add0fdffc
+        - ElementName: Danger
+          ObjectType: 8
+          guid: e238b5487f791a4bab8a06c90a8473cf
+      - name: Exploration
+        guid: 55f873cb1fd3e342bfde38dcce420b59
+        id: 2582085496
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 375963f2d715fd40b3c742ee9133ca60
+        - ElementName: Environment
+          ObjectType: 9
+          guid: ad4766eb201cb44d9023525add0fdffc
+        - ElementName: Exploration
+          ObjectType: 8
+          guid: 55f873cb1fd3e342bfde38dcce420b59
+      - name: None
+        guid: 704f875f4df92248abd159e0b3644d3f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 375963f2d715fd40b3c742ee9133ca60
+        - ElementName: Environment
+          ObjectType: 9
+          guid: ad4766eb201cb44d9023525add0fdffc
+        - ElementName: None
+          ObjectType: 8
+          guid: 704f875f4df92248abd159e0b3644d3f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -529,7 +770,7 @@ MonoBehaviour:
     m_lastTime: -8584569476669770613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000800000009000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e000000d0000000
+  ExpandedWaapiItemIds: 010000000300000004000000050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e0000001f0000002000000023000000390000003a0000003f000000400000004100000042000000d0000000e2000000e3000000e8000000060100001401000015010000160100005f0100009201000093010000940100009e0100009f010000a1010000a3010000ba060000bf06000079100000f8120000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -475,11 +475,13 @@ MonoBehaviour:
   JumpEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1f4db832a837dba469c1916efe9d57e7,
+      type: 2}
   LandEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 31b4217d7bc4a3c4387d76bd2d09abd1,
+      type: 2}
   FallDamageEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -487,7 +489,8 @@ MonoBehaviour:
   DeathEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 9856784a6aa66a1428df15a5be0409f7,
+      type: 2}
   PlayerHealthRTPC:
     idInternal: 0
     valueGuidInternal: 
@@ -629,7 +632,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7253983127304857660}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243893235630832048, guid: fcc71635aab95ff4fbdf1880bf2afa2f,
     type: 2}
@@ -726,7 +729,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7253983127304857660}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243216109797877232, guid: fcc71635aab95ff4fbdf1880bf2afa2f,
     type: 2}

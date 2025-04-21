@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615b540815223420491f4a1e9a845f36, type: 3}
+  m_Name: 30BE20A7-5F87-4B1F-949D-89C7F4925ECF
+  m_EditorClassIdentifier: 
+  objectName: Exploration
+  id: 2582085496
+  guid: 30BE20A7-5F87-4B1F-949D-89C7F4925ECF
+  WwiseStateGroupReference: {fileID: 11400000, guid: 00567e6f487fa1d4db199cbc40e3bb21,
+    type: 2}

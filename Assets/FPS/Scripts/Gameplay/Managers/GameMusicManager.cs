@@ -7,6 +7,7 @@ using Unity.FPS.AI;
 
 public class GameMusicManager : MonoBehaviour
 {
+    public AK.Wwise.Event StartMusicEvent;
     public AK.Wwise.State PlayerStateCombat;
     public AK.Wwise.State PlayerStateExploration;
     string m_CurrentState = "";
@@ -15,6 +16,7 @@ public class GameMusicManager : MonoBehaviour
 
     void Start()
     {
+        StartMusicEvent?.Post(gameObject);
         m_Player = FindObjectOfType<PlayerCharacterController>();
         m_CurrentState = "Exploration";
         PlayerStateExploration?.SetValue();

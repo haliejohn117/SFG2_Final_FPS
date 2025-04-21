@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
     "Language": "SFX",
-    "Hash": "{3F599D48-7E42-5359-B501-29F6CD59260F}",
+    "Hash": "{5EC8EC3D-AD9C-D17E-1D44-820A4A54522D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -32,6 +32,22 @@
       "CachePath": "6F/{6F12D6F1-7984-907B-7DAF-75DC58F9BA02}.wem"
      },
      {
+      "Id": "92785152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Item_Pickup_Health_01.wav",
+      "CachePath": "AB/{ABF050FF-D3B9-01CE-B56A-078107E3BDF4}.wem"
+     },
+     {
+      "Id": "98670622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Item_Pickup_Weapon_01.wav",
+      "CachePath": "49/{49F9DD4E-4717-C12E-7F7D-E25905F9D658}.wem"
+     },
+     {
       "Id": "104706583",
       "Language": "SFX",
       "Streaming": "false",
@@ -40,28 +56,12 @@
       "CachePath": "70/{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem"
      },
      {
-      "Id": "118425554",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Cylinder 4.wav",
-      "CachePath": "AE/{AE088CB4-8747-73AC-07B9-AACCF36618EE}.wem"
-     },
-     {
       "Id": "151262928",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "TOONSqk_Air Horn Squeak 01_B00M_ONE.wav",
       "CachePath": "86/{86012BFF-D72C-C7D9-3149-77F9C2843480}.wem"
-     },
-     {
-      "Id": "165605077",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Cylinder 2.wav",
-      "CachePath": "B5/{B5CC1DA9-D0A6-086D-F308-F5A8765C359A}.wem"
      },
      {
       "Id": "192293903",
@@ -80,20 +80,21 @@
       "CachePath": "19/{190A3BD8-9878-1FD6-4EE2-EDEF55E072B9}.wem"
      },
      {
-      "Id": "245789709",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Weapon_Blaster_Tink_04.wav",
-      "CachePath": "AC/{AC7EC389-FEAC-1D55-0D97-DEC4D9560D16}.wem"
-     },
-     {
       "Id": "253122031",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Blaster Impact 7.wav",
       "CachePath": "12/{12DA78CB-B0D4-1F65-38C5-5E7BF36CA57A}.wem"
+     },
+     {
+      "Id": "269338044",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Environment_Danger_01.wav",
+      "Path": "Media/269338044.wem",
+      "CachePath": "29/{296E736C-0BFA-F395-15E1-07B8EFCD0D8C}.wem"
      },
      {
       "Id": "280750469",
@@ -104,12 +105,53 @@
       "CachePath": "54/{540BA80D-EA9D-FDCD-94F7-9FE8C001898D}.wem"
      },
      {
+      "Id": "305646494",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Environment_Normal_03.wav",
+      "Path": "Media/305646494.wem",
+      "CachePath": "25/{250CD2B3-DB51-1CE4-CBB6-E176EC705EE2}.wem"
+     },
+     {
       "Id": "307676913",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon_Shotgun_Fire_02.wav",
       "CachePath": "FF/{FF157DAD-AF9B-6734-3473-9F1340AE542E}.wem"
+     },
+     {
+      "Id": "337500227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "land Master-01.L.wav",
+      "CachePath": "BC/{BC679848-E957-7B2C-E42C-CAB3D35F3E49}.wem"
+     },
+     {
+      "Id": "352011604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "jump Master-01.L.wav",
+      "CachePath": "AD/{AD15700C-F47D-2125-779F-D0E8DDA917DD}.wem"
+     },
+     {
+      "Id": "376968590",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_03.wav",
+      "CachePath": "B8/{B887DA69-A04F-8919-FEAE-9B8F8AF770B7}.wem"
+     },
+     {
+      "Id": "403701920",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Shotgun_SwitchTo_01.wav",
+      "CachePath": "23/{23A3A861-12D9-73AC-82FA-5231AA931253}.wem"
      },
      {
       "Id": "415476632",
@@ -120,12 +162,28 @@
       "CachePath": "B4/{B462783E-81FA-9C43-F0A3-11C4F4D1B67F}.wem"
      },
      {
+      "Id": "421255041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "equip blaster Master-01.L.wav",
+      "CachePath": "6E/{6E380482-45E1-EA54-B9AA-1B51444893B0}.wem"
+     },
+     {
       "Id": "443700259",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "shot1 Master-01.L.wav",
       "CachePath": "09/{09F8FB24-17E2-3128-B8AD-0A347A7B0314}.wem"
+     },
+     {
+      "Id": "485939665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Shoot_01.wav",
+      "CachePath": "8B/{8B3E6F75-95C0-7B9A-2234-A55ADF0EE591}.wem"
      },
      {
       "Id": "511855533",
@@ -144,12 +202,12 @@
       "CachePath": "E6/{E6AD8B1C-1ED9-26D6-A293-6EBC37B5ED25}.wem"
      },
      {
-      "Id": "588372694",
+      "Id": "610871649",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Weapon_Blaster_Tink_02.wav",
-      "CachePath": "24/{24D93644-4EE8-5F5C-84F6-60D99513AC8C}.wem"
+      "ShortName": "Enemy_HoverBot_Hurt_02.wav",
+      "CachePath": "28/{2804F0CD-0FC9-05AA-D585-2A7304410842}.wem"
      },
      {
       "Id": "625908631",
@@ -160,20 +218,28 @@
       "CachePath": "D3/{D3118EDC-0319-0C16-22A4-5A3328E4766C}.wem"
      },
      {
+      "Id": "626269760",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Destroy_01.wav",
+      "CachePath": "FB/{FB22B606-1D37-440C-BB92-96D9D7C41C99}.wem"
+     },
+     {
+      "Id": "633689311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Hurt_04.wav",
+      "CachePath": "5E/{5EF77656-E3A6-A874-9F0A-9A08D7B26524}.wem"
+     },
+     {
       "Id": "657763999",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon_Shotgun_Fire_04.wav",
       "CachePath": "64/{6482BC7E-CB86-C199-D017-D579395AFE7D}.wem"
-     },
-     {
-      "Id": "679497602",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Cylinder 1.wav",
-      "CachePath": "C8/{C860EE68-84B7-5263-481E-DA22A76C7854}.wem"
      },
      {
       "Id": "679832758",
@@ -184,28 +250,46 @@
       "CachePath": "1B/{1B1351C1-917F-13A0-1301-B9A2BE3078F5}.wem"
      },
      {
-      "Id": "728096363",
+      "Id": "683451512",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Weapon_Blaster_Tink_03.wav",
-      "CachePath": "B1/{B1CA1018-8ECC-20C2-D25C-D181006AD5E1}.wem"
+      "ShortName": "death Master-01.L.wav",
+      "CachePath": "61/{617269B6-1F6F-1710-CC0D-A0F6C966DEC6}.wem"
      },
      {
-      "Id": "888440822",
+      "Id": "830507302",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Weapon_Blaster_Tink_01.wav",
-      "CachePath": "D3/{D31B19BF-E0AB-78D0-66B4-6BF759A5AB42}.wem"
+      "ShortName": "Enemy_HoverBot_Hurt_01.wav",
+      "CachePath": "89/{89801132-B46E-4561-DC2C-BD3183170351}.wem"
      },
      {
-      "Id": "934764262",
+      "Id": "863949858",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Environment_Normal_01.wav",
+      "Path": "Media/863949858.wem",
+      "CachePath": "B3/{B3946D25-4FB5-4BB5-ED9B-DF1958DBDDF4}.wem"
+     },
+     {
+      "Id": "870125046",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Cylinder 3.wav",
-      "CachePath": "40/{40401D29-85AC-0C3B-D35F-A06A8011E247}.wem"
+      "ShortName": "Weapon_Blaster_SwitchTo_01.wav",
+      "CachePath": "C0/{C098D3AE-89D6-0E22-E23B-0C47CC402491}.wem"
+     },
+     {
+      "Id": "902175756",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Amb_Environment_Normal_02.wav",
+      "Path": "Media/902175756.wem",
+      "CachePath": "E9/{E9EFA886-EB09-48D9-C6AE-7C819E8DC841}.wem"
      },
      {
       "Id": "944077970",
@@ -216,6 +300,14 @@
       "CachePath": "24/{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem"
      },
      {
+      "Id": "972077241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Shoot_02.wav",
+      "CachePath": "0C/{0CF0932E-B4F7-A41E-9167-850A3D97B2A4}.wem"
+     },
+     {
       "Id": "984385279",
       "Language": "SFX",
       "Streaming": "false",
@@ -224,12 +316,28 @@
       "CachePath": "95/{95342E95-B251-009B-3D58-7E7AFDAD788E}.wem"
      },
      {
+      "Id": "1012393079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_HoverBot_Shoot_03.wav",
+      "CachePath": "B7/{B76D43FC-8250-1ADE-2869-A32D9E6BDB47}.wem"
+     },
+     {
       "Id": "1042404680",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon_Shotgun_Fire_01.wav",
       "CachePath": "24/{24B4AE04-02ED-2B24-4CCF-8CD06D3E1E13}.wem"
+     },
+     {
+      "Id": "1053781214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Weapon_Blaster_Reload_Hiss.wav",
+      "CachePath": "DF/{DF911508-BE10-5DC6-F347-487C32C15CAA}.wem"
      }
     ],
     "Plugins": {
@@ -246,67 +354,10 @@
     },
     "Events": [
      {
-      "Id": "236527715",
-      "Name": "Blaster_Cyllinder_1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_1",
-      "GUID": "{9AC63595-FD93-48B5-9D14-AE8BBABDE2E3}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.624",
-      "DurationMax": "0.624",
-      "MediaRefs": [
-       {
-        "Id": "679497602"
-       }
-      ]
-     },
-     {
-      "Id": "236527712",
-      "Name": "Blaster_Cyllinder_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_2",
-      "GUID": "{A4D3062B-41B0-49AD-A12A-ADC2F2CCC328}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.624",
-      "DurationMax": "0.624",
-      "MediaRefs": [
-       {
-        "Id": "165605077"
-       }
-      ]
-     },
-     {
-      "Id": "236527713",
-      "Name": "Blaster_Cyllinder_3",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_3",
-      "GUID": "{6797889A-217E-4DA2-A1E4-2FCBD7D6B8FF}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.624",
-      "DurationMax": "0.624",
-      "MediaRefs": [
-       {
-        "Id": "934764262"
-       }
-      ]
-     },
-     {
-      "Id": "236527718",
-      "Name": "Blaster_Cyllinder_4",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload\\Blaster_Cyllinder_4",
-      "GUID": "{C60655F7-0A3A-4AF8-890B-8E8D8D2BE285}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.624",
-      "DurationMax": "0.624",
-      "MediaRefs": [
-       {
-        "Id": "118425554"
-       }
-      ]
-     },
-     {
       "Id": "639453935",
       "Name": "Blaster_Fire",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Fire",
       "GUID": "{D069709A-2AA0-4E2D-A41E-5253325F16C3}",
-      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "0.4144203",
       "DurationMax": "0.60325223",
@@ -326,9 +377,9 @@
       ]
      },
      {
-      "Id": "2521292096",
-      "Name": "Blaster_Reload_Hiss",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload_Hiss",
+      "Id": "1245297744",
+      "Name": "Blaster_Reload",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload",
       "GUID": "{0F09E33B-E1CF-46F8-8FDD-BAE1912502A7}",
       "DurationType": "OneShot",
       "DurationMin": "1.875",
@@ -340,34 +391,11 @@
       ]
      },
      {
-      "Id": "1977076595",
-      "Name": "Blaster_Reload_Tink",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Reload_Tink",
-      "GUID": "{BB672B19-F26C-4EA8-95C7-810E83F7A62C}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.10570833",
-      "DurationMax": "0.1249375",
-      "MediaRefs": [
-       {
-        "Id": "245789709"
-       },
-       {
-        "Id": "588372694"
-       },
-       {
-        "Id": "728096363"
-       },
-       {
-        "Id": "888440822"
-       }
-      ]
-     },
-     {
       "Id": "1073526629",
       "Name": "Blaster_Shot_Impact_VFX",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Shot_Impact_VFX",
       "GUID": "{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.28330576",
       "DurationMax": "0.36213475",
@@ -406,17 +434,126 @@
       }
      },
      {
+      "Id": "996863484",
+      "Name": "Blaster_SwitchTo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_SwitchTo",
+      "GUID": "{9369A691-B5F2-48F7-AAFE-06958FC06BFA}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.25",
+      "DurationMax": "1.25",
+      "MediaRefs": [
+       {
+        "Id": "421255041"
+       }
+      ]
+     },
+     {
       "Id": "1493205860",
       "Name": "HoverBot_Alerted",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Alerted",
       "GUID": "{E924E94F-AAD1-4083-BB7F-D210221C260A}",
-      "MaxAttenuation": "20",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "0.9166667",
       "DurationMax": "0.9166667",
       "MediaRefs": [
        {
         "Id": "537180805"
+       }
+      ]
+     },
+     {
+      "Id": "4012500019",
+      "Name": "HoverBot_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Destroy",
+      "GUID": "{F815070F-0381-456E-9ED7-5ACB748C45B7}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0893207",
+      "DurationMax": "1.0893207",
+      "MediaRefs": [
+       {
+        "Id": "626269760"
+       }
+      ]
+     },
+     {
+      "Id": "290453740",
+      "Name": "HoverBot_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Hurt",
+      "GUID": "{5C19E30A-09E4-413E-B7AD-BFFC618D1EAE}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4421822",
+      "DurationMax": "0.5779659",
+      "MediaRefs": [
+       {
+        "Id": "376968590"
+       },
+       {
+        "Id": "610871649"
+       },
+       {
+        "Id": "633689311"
+       },
+       {
+        "Id": "830507302"
+       }
+      ]
+     },
+     {
+      "Id": "3185060020",
+      "Name": "HoverBot_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Shoot",
+      "GUID": "{03395DC0-F305-4E68-A63D-7423ABF6FAD2}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25466588",
+      "DurationMax": "0.25957647",
+      "MediaRefs": [
+       {
+        "Id": "485939665"
+       },
+       {
+        "Id": "972077241"
+       },
+       {
+        "Id": "1012393079"
+       }
+      ]
+     },
+     {
+      "Id": "395970340",
+      "Name": "Item_PickUp_Health",
+      "ObjectPath": "\\Events\\Default Work Unit\\Items\\Item_PickUp_Health",
+      "GUID": "{F7C7DFD6-EEF3-46E7-A631-2D8EDF897CA2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6666667",
+      "DurationMax": "0.6666667",
+      "MediaRefs": [
+       {
+        "Id": "92785152"
+       }
+      ]
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music",
+      "GUID": "{DBC45000-9E41-4778-AD8F-6F931AEB6040}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "269338044"
+       },
+       {
+        "Id": "305646494"
+       },
+       {
+        "Id": "863949858"
+       },
+       {
+        "Id": "902175756"
        }
       ]
      },
@@ -431,6 +568,48 @@
       "MediaRefs": [
        {
         "Id": "151262928"
+       }
+      ]
+     },
+     {
+      "Id": "3083087645",
+      "Name": "Player_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Death",
+      "GUID": "{AF146654-6A9C-4A8D-91D8-310493D190AD}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.2092795",
+      "DurationMax": "3.2092795",
+      "MediaRefs": [
+       {
+        "Id": "683451512"
+       }
+      ]
+     },
+     {
+      "Id": "1305133589",
+      "Name": "Player_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Jump",
+      "GUID": "{CCF284DF-74BD-48BF-BA3F-314BD9CF22FA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38058642",
+      "DurationMax": "0.40321726",
+      "MediaRefs": [
+       {
+        "Id": "352011604"
+       }
+      ]
+     },
+     {
+      "Id": "3629196698",
+      "Name": "Player_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Player_Land",
+      "GUID": "{37BDB982-69EE-4CD1-8C28-AEB5B01D6553}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24706735",
+      "DurationMax": "0.26175874",
+      "MediaRefs": [
+       {
+        "Id": "337500227"
        }
       ]
      },
@@ -456,10 +635,66 @@
         "Id": "1042404680"
        }
       ]
+     },
+     {
+      "Id": "3479070331",
+      "Name": "Shotgun_Reload",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\Shotgun_Reload",
+      "GUID": "{EDD77520-D566-4D0F-9150-16682005C82D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.7793334",
+      "DurationMax": "2.7793334",
+      "MediaRefs": [
+       {
+        "Id": "1053781214"
+       }
+      ]
+     },
+     {
+      "Id": "252689147",
+      "Name": "Shotgun_SwitchTo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Shotgun\\Shotgun_SwitchTo",
+      "GUID": "{54798250-4388-407D-B30B-A96F582EB660}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2213334",
+      "DurationMax": "1.2213334",
+      "MediaRefs": [
+       {
+        "Id": "403701920"
+       }
+      ]
+     },
+     {
+      "Id": "604722539",
+      "Name": "Weapon_PickUpGeneric",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Weapon_PickUpGeneric",
+      "GUID": "{CDE2E4C6-AE51-468B-A750-8C19B86A0739}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.37060633",
+      "DurationMax": "0.39264375",
+      "MediaRefs": [
+       {
+        "Id": "98670622"
+       }
+      ]
+     },
+     {
+      "Id": "313114590",
+      "Name": "Weapon_SwitchToGeneric",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Weapon_SwitchToGeneric",
+      "GUID": "{51068CCE-2A47-4C3B-8F30-DE5925DC0DBC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.29166666",
+      "DurationMax": "0.29166666",
+      "MediaRefs": [
+       {
+        "Id": "870125046"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B5A8FBEA-7DC6-2328-64EF-2B62F8812139}"
+  "FileHash": "{FF4C7FFF-4930-9C02-AA62-7D099E53C0AE}"
  }
 }
