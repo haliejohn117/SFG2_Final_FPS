@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
     "Language": "SFX",
-    "Hash": "{5EC8EC3D-AD9C-D17E-1D44-820A4A54522D}",
+    "Hash": "{332A2EEE-8EDA-152F-F40D-6385CBFE147E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "Item_Pickup_Weapon_01.wav",
       "CachePath": "49/{49F9DD4E-4717-C12E-7F7D-E25905F9D658}.wem"
+     },
+     {
+      "Id": "102690257",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "224794-solo-beeps-58.wav",
+      "CachePath": "8B/{8B6B1AA5-D28E-599A-93B8-86DF1D6E05B3}.wem"
      },
      {
       "Id": "104706583",
@@ -256,6 +264,14 @@
       "Location": "Memory",
       "ShortName": "death Master-01.L.wav",
       "CachePath": "61/{617269B6-1F6F-1710-CC0D-A0F6C966DEC6}.wem"
+     },
+     {
+      "Id": "785970720",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turret alert.wav",
+      "CachePath": "CF/{CF6FC9B3-257A-5FDE-2DF9-5CBB44123356}.wem"
      },
      {
       "Id": "830507302",
@@ -665,6 +681,35 @@
       ]
      },
      {
+      "Id": "1147922357",
+      "Name": "Turret_AlertIn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Turret\\Turret_AlertIn",
+      "GUID": "{D66A76F5-1355-4AF4-B535-3EF2BD49C8A7}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "0.93941665",
+      "DurationMax": "0.93941665",
+      "MediaRefs": [
+       {
+        "Id": "785970720"
+       }
+      ]
+     },
+     {
+      "Id": "1609349980",
+      "Name": "Turret_AlertOut",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Turret\\Turret_AlertOut",
+      "GUID": "{70237235-1364-42D4-8F38-90DBA56F25E3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85521877",
+      "DurationMax": "0.85521877",
+      "MediaRefs": [
+       {
+        "Id": "102690257"
+       }
+      ]
+     },
+     {
       "Id": "604722539",
       "Name": "Weapon_PickUpGeneric",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Weapon_PickUpGeneric",
@@ -695,6 +740,6 @@
     ]
    }
   ],
-  "FileHash": "{1288EBDC-429B-5A96-16ED-00169D19B13B}"
+  "FileHash": "{7DA26B3B-BBB4-5C0C-7CA2-585EDE813AE7}"
  }
 }

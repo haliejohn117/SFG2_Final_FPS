@@ -7,9 +7,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	639453935	Blaster_Fire			\Default Work Unit\Weapons\Blaster\Blaster_Fire	
 	996863484	Blaster_SwitchTo			\Default Work Unit\Weapons\Blaster\Blaster_SwitchTo	
 	1073526629	Blaster_Shot_Impact_VFX			\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX	
+	1147922357	Turret_AlertIn			\Default Work Unit\Enemies\Turret\Turret_AlertIn	
 	1245297744	Blaster_Reload			\Default Work Unit\Weapons\Blaster\Blaster_Reload	
 	1305133589	Player_Jump			\Default Work Unit\Player\Player_Jump	
 	1493205860	HoverBot_Alerted			\Default Work Unit\Enemies\HoverBot\HoverBot_Alerted	
+	1609349980	Turret_AlertOut			\Default Work Unit\Enemies\Turret\Turret_AlertOut	
 	2513698745	Placeholder_Event			\Default Work Unit\Placeholder_Event	
 	3083087645	Player_Death			\Default Work Unit\Player\Player_Death	
 	3185060020	HoverBot_Shoot			\Default Work Unit\Enemies\HoverBot\HoverBot_Shoot	
@@ -36,6 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	33855622	Blaster Impact 6	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\6F\{6F12D6F1-7984-907B-7DAF-75DC58F9BA02}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 6		30624
 	92785152	Item_Pickup_Health	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\AB\{ABF050FF-D3B9-01CE-B56A-078107E3BDF4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Item_Pickup_Health		128096
 	98670622	Weapon_PickupGeneric	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\49\{49F9DD4E-4717-C12E-7F7D-E25905F9D658}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Weapon_PickupGeneric		36718
+	102690257	Turret_AlertOut	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\8B\{8B6B1AA5-D28E-599A-93B8-86DF1D6E05B3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Turret\Turret_AlertOut		164296
 	104706583	Blaster_Shot_4	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\70\{706D9858-6DB9-5C83-6E01-60950FD533CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_4		48096
 	151262928	PlaceHolder	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\86\{86012BFF-D72C-C7D9-3149-77F9C2843480}.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlaceHolder		70356
 	192293903	Weapon_Shotgun_Fire_03	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\5B\{5B434572-E5A9-98C6-82FE-04AF61B06BD4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Fire\Weapon_Shotgun_Fire_03		142484
@@ -60,6 +63,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	657763999	Weapon_Shotgun_Fire_04	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\64\{6482BC7E-CB86-C199-D017-D579395AFE7D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Shotgun\Shotgun_Fire\Weapon_Shotgun_Fire_04		132684
 	679832758	Blaster Impact 8	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\1B\{1B1351C1-917F-13A0-1301-B9A2BE3078F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX\Blaster Impact 8		30624
 	683451512	Player_Death	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\61\{617269B6-1F6F-1710-CC0D-A0F6C966DEC6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Death		308186
+	785970720	Turret_AlertIn	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\CF\{CF6FC9B3-257A-5FDE-2DF9-5CBB44123356}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Turret\Turret_AlertIn		180464
 	830507302	Enemy_HoverBot_Hurt_01	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\89\{89801132-B46E-4561-DC2C-BD3183170351}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt\Enemy_HoverBot_Hurt_01		84996
 	870125046	Weapon_SwitchToGeneric	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\C0\{C098D3AE-89D6-0E22-E23B-0C47CC402491}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Weapon_SwitchToGeneric		56096
 	944077970	Blaster_Shot_2	D:\Git\SFG2_Final_FPS\SFG2_Final_FPS_WwiseProject\.cache\24\{24F691DE-0632-F94F-C6A9-A3A2B3FFE5F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Blaster\Blaster_Shot_Container\Blaster_Shot_2		48096

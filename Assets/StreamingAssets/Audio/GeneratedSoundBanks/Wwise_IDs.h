@@ -30,6 +30,8 @@ namespace AK
         static const AkUniqueID SHOTGUN_FIRE = 3982195600U;
         static const AkUniqueID SHOTGUN_RELOAD = 3479070331U;
         static const AkUniqueID SHOTGUN_SWITCHTO = 252689147U;
+        static const AkUniqueID TURRET_ALERTIN = 1147922357U;
+        static const AkUniqueID TURRET_ALERTOUT = 1609349980U;
         static const AkUniqueID WEAPON_PICKUPGENERIC = 604722539U;
         static const AkUniqueID WEAPON_SWITCHTOGENERIC = 313114590U;
     } // namespace EVENTS

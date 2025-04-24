@@ -287,12 +287,13 @@ MonoBehaviour:
   AlertedInEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d2f5bfaa905dc4a479be73f160a5299e,
+    WwiseObjectReference: {fileID: 11400000, guid: a2deea25ff4158d4f9d1d7d6b17c0869,
       type: 2}
   AlertOutEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4156ea41f77ad1341b96dd80b9ce7f1f,
+      type: 2}
   DamageEventActive:
     idInternal: 0
     valueGuidInternal: 

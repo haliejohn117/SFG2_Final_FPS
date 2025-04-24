@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 78962d00c1df6e4f903d112e5e1f7683
     GuidInternal: 
-    m_lastTime: -8584564013435978104
+    m_lastTime: -8584560701835603069
     List:
     - name: Main
       guid: 64c32893f30a2245b4a736b8ccc0b4f8
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c8ec1b148ff09f48aeb58bf1564c4f6f
     GuidInternal: 
-    m_lastTime: -8584563939481273947
+    m_lastTime: -8584560695683220998
     List:
     - name: Blaster
       guid: 341c9c36436c2e41b3b953e35cc5d9a8
@@ -574,6 +574,72 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.2213334
       minDuration: 1.2213334
+    - name: Turret
+      guid: af82e708ca5ec9469dcc894a8a4c1cad
+      id: 2674766611
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: Turret
+        ObjectType: 4
+        guid: af82e708ca5ec9469dcc894a8a4c1cad
+      Path: Events\Default Work Unit\Enemies\Turret
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Turret_AlertIn
+      guid: f5766ad65513f44ab5353ef2bd49c8a7
+      id: 1147922357
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: Turret
+        ObjectType: 4
+        guid: af82e708ca5ec9469dcc894a8a4c1cad
+      - ElementName: Turret_AlertIn
+        ObjectType: 3
+        guid: f5766ad65513f44ab5353ef2bd49c8a7
+      Path: Events\Default Work Unit\Enemies\Turret\Turret_AlertIn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Turret_AlertOut
+      guid: 357223706413d4428f3890dba56f25e3
+      id: 1609349980
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: Turret
+        ObjectType: 4
+        guid: af82e708ca5ec9469dcc894a8a4c1cad
+      - ElementName: Turret_AlertOut
+        ObjectType: 3
+        guid: 357223706413d4428f3890dba56f25e3
+      Path: Events\Default Work Unit\Enemies\Turret\Turret_AlertOut
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Weapon_PickUpGeneric
       guid: c6e4e2cd51ae8b46a7508c19b86a0739
       id: 604722539
@@ -657,7 +723,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 375963f2d715fd40b3c742ee9133ca60
     GuidInternal: 
-    m_lastTime: -8584563921455813945
+    m_lastTime: -8584560701835603069
     List:
     - name: Environment
       guid: ad4766eb201cb44d9023525add0fdffc
@@ -770,7 +836,7 @@ MonoBehaviour:
     m_lastTime: -8584569476669770613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000300000004000000050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e0000001f0000002000000023000000390000003a0000003f000000400000004100000042000000d0000000e2000000e3000000e8000000060100001401000015010000160100005f0100009201000093010000940100009e0100009f010000a1010000a3010000ba060000bf06000079100000f8120000
+  ExpandedWaapiItemIds: 010000000300000004000000050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e0000001f0000002000000023000000390000003a0000003f000000400000004100000042000000d0000000e2000000e3000000e8000000060100001401000015010000160100005f0100009201000093010000940100009e0100009f010000a1010000a3010000e7010000e8010000e9010000ba060000bf06000079100000cb120000f8120000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

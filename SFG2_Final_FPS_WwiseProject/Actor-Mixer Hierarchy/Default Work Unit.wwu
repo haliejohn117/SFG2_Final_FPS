@@ -1181,6 +1181,72 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Turret" ID="{7029ADAA-7772-4741-A953-AA6DB6934F4E}" ShortID="697161444">
+							<ChildrenList>
+								<Sound Name="Turret_AlertIn" ID="{BCB3F911-9C93-4719-AFBD-B0FC07D13CDD}" ShortID="704487461">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Default Attenuation" ID="{E31CF498-63C2-4FD7-A835-7297CE60EA72}" WorkUnitID="{92517867-D13C-4215-8357-39AE1F3A125E}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Turret alert" ID="{2EA6C4CD-E83A-4D07-AE74-893B43577C1F}">
+											<Language>SFX</Language>
+											<AudioFile>Turret alert.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="785970720"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Turret alert" ID="{2EA6C4CD-E83A-4D07-AE74-893B43577C1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Turret_AlertOut" ID="{2CDC9397-537A-4D9E-9C04-9AC2867A7590}" ShortID="713606033">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69DB216A-ABE9-4AE8-97EC-F785E6E0B17E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21420713-108D-4DF7-8393-AB95AFB3FAED}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="224794-solo-beeps-58" ID="{759C7426-E8EB-439C-80F6-222F07890A52}">
+											<Language>SFX</Language>
+											<AudioFile>224794-solo-beeps-58.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="102690257"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="224794-solo-beeps-58" ID="{759C7426-E8EB-439C-80F6-222F07890A52}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Items" ID="{67815174-41F9-439E-96BD-2C9EBCC66DDA}" ShortID="439622387">

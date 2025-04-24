@@ -175,6 +175,32 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Turret" ID="{08E782AF-5ECA-46C9-9DCC-894A8A4C1CAD}" ShortID="595127627">
+							<ChildrenList>
+								<Event Name="Turret_AlertIn" ID="{D66A76F5-1355-4AF4-B535-3EF2BD49C8A7}">
+									<ChildrenList>
+										<Action Name="" ID="{2F9C7F0C-72E2-4ED2-9337-44A26F65499F}" ShortID="292980552">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turret_AlertIn" ID="{BCB3F911-9C93-4719-AFBD-B0FC07D13CDD}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Turret_AlertOut" ID="{70237235-1364-42D4-8F38-90DBA56F25E3}">
+									<ChildrenList>
+										<Action Name="" ID="{1DCDAA0D-4E6F-4A9D-A694-06BBB300EDBD}" ShortID="725557445">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turret_AlertOut" ID="{2CDC9397-537A-4D9E-9C04-9AC2867A7590}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Items" ID="{C6FC6CA2-DBE2-4032-8602-FB585C27E41C}" ShortID="997962811">

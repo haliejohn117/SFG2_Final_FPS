@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<Attenuation Name="Default Attenuation" ID="{E31CF498-63C2-4FD7-A835-7297CE60EA72}" ShortID="861276455">
 					<PropertyList>
+						<Property Name="ConeLowPassFilterValue" Type="int32">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
 						<Property Name="ConeUse" Type="bool">
 							<ValueList>
 								<Value>True</Value>
@@ -27,8 +32,8 @@
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>16.00623</XPos>
-											<YPos>-3.4354</YPos>
+											<XPos>17.50899</XPos>
+											<YPos>-3.99628</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
