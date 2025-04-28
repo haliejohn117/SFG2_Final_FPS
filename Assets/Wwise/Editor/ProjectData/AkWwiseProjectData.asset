@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c8ec1b148ff09f48aeb58bf1564c4f6f
     GuidInternal: 
-    m_lastTime: -8584560695683220998
+    m_lastTime: -8584558069077448320
     List:
     - name: Blaster
       guid: 341c9c36436c2e41b3b953e35cc5d9a8
@@ -182,7 +182,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f4f57527c2561f45b8a2c40eb4baddb9
       Path: Events\Default Work Unit\Weapons\Blaster\Blaster_Shot_Impact_VFX
-      maxAttenuation: 30
+      maxAttenuation: 50
       maxDuration: 0.36213475
       minDuration: 0.28330576
     - name: Blaster_SwitchTo
@@ -265,7 +265,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4fe924e9d1aa8340bb7fd210221c260a
       Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Alerted
-      maxAttenuation: 30
+      maxAttenuation: 50
       maxDuration: 0.9166667
       minDuration: 0.9166667
     - name: HoverBot_Destroy
@@ -288,7 +288,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0f0715f881036e459ed75acb748c45b7
       Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Destroy
-      maxAttenuation: 30
+      maxAttenuation: 50
       maxDuration: 1.0893207
       minDuration: 1.0893207
     - name: HoverBot_Hurt
@@ -311,7 +311,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0ae3195ce4093e41b7adbffc618d1eae
       Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Hurt
-      maxAttenuation: 30
+      maxAttenuation: 50
       maxDuration: 0.5779659
       minDuration: 0.4421822
     - name: HoverBot_Shoot
@@ -334,7 +334,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c05d390305f3684ea63d7423abf6fad2
       Path: Events\Default Work Unit\Enemies\HoverBot\HoverBot_Shoot
-      maxAttenuation: 30
+      maxAttenuation: 50
       maxDuration: 0.25957647
       minDuration: 0.25466588
     - name: Item_PickUp_Health
@@ -614,9 +614,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f5766ad65513f44ab5353ef2bd49c8a7
       Path: Events\Default Work Unit\Enemies\Turret\Turret_AlertIn
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 50
+      maxDuration: 0.93941665
+      minDuration: 0.93941665
     - name: Turret_AlertOut
       guid: 357223706413d4428f3890dba56f25e3
       id: 1609349980
@@ -638,8 +638,54 @@ MonoBehaviour:
         guid: 357223706413d4428f3890dba56f25e3
       Path: Events\Default Work Unit\Enemies\Turret\Turret_AlertOut
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.85521877
+      minDuration: 0.85521877
+    - name: Turret_Destroy
+      guid: fe41201be11317448e1e3fa4ebf16f75
+      id: 3273325796
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: Turret
+        ObjectType: 4
+        guid: af82e708ca5ec9469dcc894a8a4c1cad
+      - ElementName: Turret_Destroy
+        ObjectType: 3
+        guid: fe41201be11317448e1e3fa4ebf16f75
+      Path: Events\Default Work Unit\Enemies\Turret\Turret_Destroy
+      maxAttenuation: 50
+      maxDuration: 1.5416666
+      minDuration: 1.5416666
+    - name: Turret_Shoot
+      guid: ac03c2114f23154b8d11890d17757818
+      id: 2888394459
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c8ec1b148ff09f48aeb58bf1564c4f6f
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 37aba4876abeea4d9cd0a4c3b3a89036
+      - ElementName: Turret
+        ObjectType: 4
+        guid: af82e708ca5ec9469dcc894a8a4c1cad
+      - ElementName: Turret_Shoot
+        ObjectType: 3
+        guid: ac03c2114f23154b8d11890d17757818
+      Path: Events\Default Work Unit\Enemies\Turret\Turret_Shoot
+      maxAttenuation: 50
+      maxDuration: 0.42107084
+      minDuration: 0.40908378
     - name: Weapon_PickUpGeneric
       guid: c6e4e2cd51ae8b46a7508c19b86a0739
       id: 604722539
@@ -836,7 +882,7 @@ MonoBehaviour:
     m_lastTime: -8584569476669770613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000300000004000000050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e0000001f0000002000000023000000390000003a0000003f000000400000004100000042000000d0000000e2000000e3000000e8000000060100001401000015010000160100005f0100009201000093010000940100009e0100009f010000a1010000a3010000e7010000e8010000e9010000ba060000bf06000079100000cb120000f8120000
+  ExpandedWaapiItemIds: 010000000300000004000000050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001e0000001f0000002000000023000000390000003a0000003f000000400000004100000042000000d0000000e2000000e3000000e8000000060100001401000015010000160100005f0100009201000093010000940100009e0100009f010000a1010000a3010000c7010000c8010000c9010000e7010000e8010000e9010000ba060000bf060000330d000079100000cb120000f8120000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

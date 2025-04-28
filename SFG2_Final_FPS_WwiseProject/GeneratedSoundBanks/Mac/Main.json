@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{9328C364-0AF3-4522-B4A7-36B8CCC0B4F8}",
     "Language": "SFX",
-    "Hash": "{332A2EEE-8EDA-152F-F40D-6385CBFE147E}",
+    "Hash": "{89177FB7-2D67-8C4D-E8A6-C94ADF7F1E53}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -162,6 +162,14 @@
       "CachePath": "23/{23A3A861-12D9-73AC-82FA-5231AA931253}.wem"
      },
      {
+      "Id": "409460192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Turret_Destroy.wav",
+      "CachePath": "FE/{FEAE78B4-F494-22D1-E3F3-5E5FAD565C1D}.wem"
+     },
+     {
       "Id": "415476632",
       "Language": "SFX",
       "Streaming": "false",
@@ -280,6 +288,14 @@
       "Location": "Memory",
       "ShortName": "Enemy_HoverBot_Hurt_01.wav",
       "CachePath": "89/{89801132-B46E-4561-DC2C-BD3183170351}.wem"
+     },
+     {
+      "Id": "862756976",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Turrret_Fire_edited_1.wav",
+      "CachePath": "5B/{5B64BE75-105A-47BB-A2F7-C7DEAD509250}.wem"
      },
      {
       "Id": "863949858",
@@ -411,7 +427,7 @@
       "Name": "Blaster_Shot_Impact_VFX",
       "ObjectPath": "\\Events\\Default Work Unit\\Weapons\\Blaster\\Blaster_Shot_Impact_VFX",
       "GUID": "{2775F5F4-56C2-451F-B8A2-C40EB4BADDB9}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.28330576",
       "DurationMax": "0.36213475",
@@ -468,7 +484,7 @@
       "Name": "HoverBot_Alerted",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Alerted",
       "GUID": "{E924E94F-AAD1-4083-BB7F-D210221C260A}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.9166667",
       "DurationMax": "0.9166667",
@@ -483,7 +499,7 @@
       "Name": "HoverBot_Destroy",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Destroy",
       "GUID": "{F815070F-0381-456E-9ED7-5ACB748C45B7}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "1.0893207",
       "DurationMax": "1.0893207",
@@ -498,7 +514,7 @@
       "Name": "HoverBot_Hurt",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Hurt",
       "GUID": "{5C19E30A-09E4-413E-B7AD-BFFC618D1EAE}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.4421822",
       "DurationMax": "0.5779659",
@@ -522,7 +538,7 @@
       "Name": "HoverBot_Shoot",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\HoverBot\\HoverBot_Shoot",
       "GUID": "{03395DC0-F305-4E68-A63D-7423ABF6FAD2}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.25466588",
       "DurationMax": "0.25957647",
@@ -685,7 +701,7 @@
       "Name": "Turret_AlertIn",
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Turret\\Turret_AlertIn",
       "GUID": "{D66A76F5-1355-4AF4-B535-3EF2BD49C8A7}",
-      "MaxAttenuation": "30",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.93941665",
       "DurationMax": "0.93941665",
@@ -706,6 +722,45 @@
       "MediaRefs": [
        {
         "Id": "102690257"
+       }
+      ]
+     },
+     {
+      "Id": "3273325796",
+      "Name": "Turret_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Turret\\Turret_Destroy",
+      "GUID": "{1B2041FE-13E1-4417-8E1E-3FA4EBF16F75}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5416666",
+      "DurationMax": "1.5416666",
+      "MediaRefs": [
+       {
+        "Id": "409460192"
+       }
+      ]
+     },
+     {
+      "Id": "2888394459",
+      "Name": "Turret_Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Turret\\Turret_Shoot",
+      "GUID": "{11C203AC-234F-4B15-8D11-890D17757818}",
+      "MaxAttenuation": "50",
+      "DurationType": "OneShot",
+      "DurationMin": "0.40908378",
+      "DurationMax": "0.42107084",
+      "MediaRefs": [
+       {
+        "Id": "485939665"
+       },
+       {
+        "Id": "862756976"
+       },
+       {
+        "Id": "972077241"
+       },
+       {
+        "Id": "1012393079"
        }
       ]
      },
@@ -740,6 +795,6 @@
     ]
    }
   ],
-  "FileHash": "{7DA26B3B-BBB4-5C0C-7CA2-585EDE813AE7}"
+  "FileHash": "{A2E66F84-4F1D-B729-F62D-E1611634C324}"
  }
 }

@@ -307,12 +307,12 @@ MonoBehaviour:
   DeathEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 37a42c75d5d25ac47876a3c31d5f5031,
+    WwiseObjectReference: {fileID: 11400000, guid: 3930466dfa5c7784db51703bf44bc7c6,
       type: 2}
   EnemyShootEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f117b1794a84b7b499be48ecfaa9cfb1,
+    WwiseObjectReference: {fileID: 11400000, guid: 5c9cc8f350bb683448c0d5a8d4d3d75e,
       type: 2}
   IdleLoopEvent:
     idInternal: 0

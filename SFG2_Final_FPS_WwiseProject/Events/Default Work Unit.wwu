@@ -199,6 +199,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Turret_Shoot" ID="{11C203AC-234F-4B15-8D11-890D17757818}">
+									<ChildrenList>
+										<Action Name="" ID="{EAE6308C-9351-46B3-B466-EC831BEB2498}" ShortID="684927809">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turret_Shoot" ID="{FB668F9B-1BE6-44AE-AB88-5155B603F600}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Turret_Destroy" ID="{1B2041FE-13E1-4417-8E1E-3FA4EBF16F75}">
+									<ChildrenList>
+										<Action Name="" ID="{42A3202F-63B9-454F-AC47-67F60E99C1E6}" ShortID="532660188">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Turret_Destroy" ID="{E986D97E-53DF-42BC-9F86-AA02DEC7ACAA}" WorkUnitID="{AFCB2D0F-E4B7-4E72-A2E6-AA8AA9DCF319}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
